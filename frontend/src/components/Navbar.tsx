@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <NavLink to="/" className="flex items-center">
           <img src={LogoSVG} alt="LE FONCIER INTELLIGENT Logo" className="h-8 mr-3" />
-          <span className="text-white text-xl font-semibold">ANDF</span>
+          <span className="text-white text-2xl font-semibold">ANDF</span>
         </NavLink>
 
         <div className="hidden md:flex items-center space-x-6">
