@@ -3,11 +3,11 @@ import React from 'react';
 const Upload: React.FC = () => {
   return (
     <div className="p-4 max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold text-primary-dark mb-6">Déposer un levé topographique</h1>
+      <h1 className="text-3xl font-bold text-primary-dark mb-6">Déposer votre levé topographique</h1>
       <form className="bg-white p-6 rounded-lg shadow-md">
         <div className="mb-4">
           <label htmlFor="file-upload" className="block text-text text-sm font-bold mb-2">
-            Sélectionnez votre fichier GeoJSON ou image (ex: TIFF)
+            Sélectionnez votre document ici depuis votre appareil
           </label>
           <input
             type="file"
