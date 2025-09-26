@@ -8,7 +8,9 @@
     "build": "tsc --noEmit && vite build",
     "lint": "eslint . --fix --report-unused-disable-directives --max-warnings 0",
     "type-check": "tsc --noEmit",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.544.0",
@@ -16,7 +18,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
   },
+  "homepage": "https://thefuturia.github.io/Hackathon-IA/",
   "devDependencies": {
+    "@types/node": "^24.5.2",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
@@ -26,6 +30,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.9.2",
