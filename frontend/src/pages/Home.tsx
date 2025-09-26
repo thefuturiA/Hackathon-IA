@@ -75,7 +75,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Lecteur audio de bienvenue */}
-      <audio ref={audioRef} src="/audio/bienvenue-bouton-jaune.opus" loop />
+      <audio ref={audioRef} src="/audio/bienvenue.mp3" loop />
       <div className="fixed bottom-4 right-4 z-50">
         <button
           onClick={toggleMute}

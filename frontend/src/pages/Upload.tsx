@@ -84,7 +84,7 @@ const Upload: React.FC = () => {
               <UploadIcon className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h2 className="text-xl font-semibold text-white">Upload de Document</h2>
+              <h2 className="text-xl font-semibold text-white">Votre document</h2>
               <p className="text-white/80 text-sm">Formats acceptés: PDF, DWG, DXF, JPG, PNG</p>
             </div>
           </div>
