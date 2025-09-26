@@ -1,0 +1,94 @@
+ERROR 2025-09-26 09:40:35,184 views 1408071 139892721972800 Erreur traitement upload: column "original_filename" of relation "ANDP_app_publicupload" does not exist
+LINE 1: ...DP_app_publicupload" ("id", "file", "session_id", "original_...
+                                                             ^
+
+ERROR 2025-09-26 10:04:12,312 ocr_integration 1422446 139779956012608 Erreur traitement complet: relation "ANDP_app_ocrresult" does not exist
+LINE 1: INSERT INTO "ANDP_app_ocrresult" ("upload_id", "raw_text", "...
+                    ^
+
+ERROR 2025-09-26 10:04:12,315 views 1422446 139779956012608 Erreur traitement upload: relation "ANDP_app_ocrresult" does not exist
+LINE 1: INSERT INTO "ANDP_app_ocrresult" ("upload_id", "raw_text", "...
+                    ^
+
+ERROR 2025-09-26 10:12:55,917 ocr_integration 1429335 140419593664064 Erreur traitement complet: column "updated_at" of relation "ANDP_app_ocrresult" does not exist
+LINE 1: ...rdinates", "validated_coordinates", "created_at", "updated_a...
+                                                             ^
+
+ERROR 2025-09-26 10:12:55,924 views 1429335 140419593664064 Erreur traitement upload: column "updated_at" of relation "ANDP_app_ocrresult" does not exist
+LINE 1: ...rdinates", "validated_coordinates", "created_at", "updated_a...
+                                                             ^
+
+ERROR 2025-09-26 10:23:40,204 ocr_integration 1436999 140286426609216 Erreur traitement complet: column "updated_at" of relation "ANDP_app_ocrresult" does not exist
+LINE 1: ...rdinates", "validated_coordinates", "created_at", "updated_a...
+                                                             ^
+
+ERROR 2025-09-26 10:23:40,207 views 1436999 140286426609216 Erreur traitement upload: column "updated_at" of relation "ANDP_app_ocrresult" does not exist
+LINE 1: ...rdinates", "validated_coordinates", "created_at", "updated_a...
+                                                             ^
+
+ERROR 2025-09-26 10:24:00,872 ocr_integration 1436999 140286426609216 Erreur traitement complet: null value in column "processing_method" of relation "ANDP_app_ocrresult" violates not-null constraint
+DETAIL:  Failing row contains (1, , , 1, null, 5, [{"x": 435690.3, "y": 705242.54, "borne": "B1", "source": "seque..., [{"x": 435690.3, "y": 705242.54, "borne": "B1", "source": "seque..., hybrid_corrector, null, 2025-09-26 10:24:00.854976+00, 4, 2025-09-26 10:24:00.854986+00).
+
+ERROR 2025-09-26 10:24:00,874 views 1436999 140286426609216 Erreur traitement upload: null value in column "processing_method" of relation "ANDP_app_ocrresult" violates not-null constraint
+DETAIL:  Failing row contains (1, , , 1, null, 5, [{"x": 435690.3, "y": 705242.54, "borne": "B1", "source": "seque..., [{"x": 435690.3, "y": 705242.54, "borne": "B1", "source": "seque..., hybrid_corrector, null, 2025-09-26 10:24:00.854976+00, 4, 2025-09-26 10:24:00.854986+00).
+
+ERROR 2025-09-26 10:24:38,923 ocr_integration 1438157 139866006353472 Erreur traitement complet: null value in column "extraction_metadata" of relation "ANDP_app_ocrresult" violates not-null constraint
+DETAIL:  Failing row contains (2, , , 1, ultra_precise, 5, [{"x": 435690.3, "y": 705242.54, "borne": "B1", "source": "seque..., [{"x": 435690.3, "y": 705242.54, "borne": "B1", "source": "seque..., hybrid_corrector, null, 2025-09-26 10:24:38.921867+00, 5, 2025-09-26 10:24:38.92188+00).
+
+ERROR 2025-09-26 10:24:38,926 views 1438157 139866006353472 Erreur traitement upload: null value in column "extraction_metadata" of relation "ANDP_app_ocrresult" violates not-null constraint
+DETAIL:  Failing row contains (2, , , 1, ultra_precise, 5, [{"x": 435690.3, "y": 705242.54, "borne": "B1", "source": "seque..., [{"x": 435690.3, "y": 705242.54, "borne": "B1", "source": "seque..., hybrid_corrector, null, 2025-09-26 10:24:38.921867+00, 5, 2025-09-26 10:24:38.92188+00).
+
+ERROR 2025-09-26 10:25:22,545 ocr_integration 1438885 139913441834560 Erreur création géométrie: column "id" is of type bigint but expression is of type uuid
+LINE 1: ...ion_details", "created_at", "updated_at") VALUES ('01773888-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+ERROR 2025-09-26 10:25:22,548 ocr_integration 1438885 139913441834560 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:25:22,549 views 1438885 139913441834560 Erreur traitement upload: Géométrie invalide
+ERROR 2025-09-26 10:28:45,038 ocr_integration 1440893 139912106997312 Erreur création géométrie: column "id" is of type bigint but expression is of type uuid
+LINE 1: ...ion_details", "created_at", "updated_at") VALUES ('86c80f70-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+ERROR 2025-09-26 10:28:45,043 ocr_integration 1440893 139912106997312 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:28:45,045 views 1440893 139912106997312 Erreur traitement upload: Géométrie invalide
+ERROR 2025-09-26 10:29:38,793 ocr_integration 1440893 139912106997312 Erreur création géométrie: column "id" is of type bigint but expression is of type uuid
+LINE 1: ...ion_details", "created_at", "updated_at") VALUES ('dfaaf537-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+ERROR 2025-09-26 10:29:38,796 ocr_integration 1440893 139912106997312 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:29:38,797 views 1440893 139912106997312 Erreur traitement upload: Géométrie invalide
+ERROR 2025-09-26 10:31:17,896 ocr_integration 1442911 139903419545152 Erreur création géométrie: column "id" is of type bigint but expression is of type uuid
+LINE 1: ...ion_details", "created_at", "updated_at") VALUES ('d129a2fd-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+ERROR 2025-09-26 10:31:17,900 ocr_integration 1442911 139903419545152 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:31:17,902 views 1442911 139903419545152 Erreur traitement upload: Géométrie invalide
+ERROR 2025-09-26 10:32:38,729 ocr_integration 1443666 140627161380416 Erreur création géométrie: column "id" is of type bigint but expression is of type uuid
+LINE 1: ...ion_details", "created_at", "updated_at") VALUES ('f07c65f2-...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+ERROR 2025-09-26 10:32:38,734 ocr_integration 1443666 140627161380416 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:32:38,740 views 1443666 140627161380416 Erreur traitement upload: Géométrie invalide
+ERROR 2025-09-26 10:34:03,632 ocr_integration 1444913 140111953000000 Erreur création géométrie: Geometry SRID (32631) does not match column SRID (4326)
+
+ERROR 2025-09-26 10:34:03,635 ocr_integration 1444913 140111953000000 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:34:03,636 views 1444913 140111953000000 Erreur traitement upload: Géométrie invalide
+ERROR 2025-09-26 10:36:12,347 ocr_integration 1444913 140111953000000 Erreur création géométrie: Geometry SRID (32631) does not match column SRID (4326)
+
+ERROR 2025-09-26 10:36:12,350 ocr_integration 1444913 140111953000000 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:36:12,352 views 1444913 140111953000000 Erreur traitement upload: Géométrie invalide
+ERROR 2025-09-26 10:40:06,498 ocr_integration 1449091 140101239568192 Erreur création géométrie: Geometry SRID (32631) does not match column SRID (4326)
+
+ERROR 2025-09-26 10:40:06,503 ocr_integration 1449091 140101239568192 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:44:44,651 ocr_integration 1452208 140001535850048 Erreur création géométrie: Geometry SRID (32631) does not match column SRID (4326)
+
+ERROR 2025-09-26 10:44:44,655 ocr_integration 1452208 140001535850048 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:44:44,656 views 1452208 140001535850048 Erreur traitement upload: Géométrie invalide
+ERROR 2025-09-26 10:46:22,383 ocr_integration 1452208 140001535850048 Erreur création géométrie: Geometry SRID (32631) does not match column SRID (4326)
+
+ERROR 2025-09-26 10:46:22,386 ocr_integration 1452208 140001535850048 Erreur traitement complet: Géométrie invalide
+ERROR 2025-09-26 10:46:22,388 views 1452208 140001535850048 Erreur traitement upload: Géométrie invalide

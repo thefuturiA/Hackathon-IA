@@ -1,0 +1,3639 @@
+🚀 VÉRIFICATION COMPLÈTE - TOUS LES FICHIERS TESTING DATA
+======================================================================
+[2025/09/25 23:48:59] ppocr DEBUG: Namespace(help='==SUPPRESS==', use_gpu=False, use_xpu=False, use_npu=False, ir_optim=True, use_tensorrt=False, min_subgraph_size=15, precision='fp32', gpu_mem=500, gpu_id=0, image_dir=None, page_num=0, det_algorithm='DB', det_model_dir='/home/Maurel/.paddleocr/whl/det/en/en_PP-OCRv3_det_infer', det_limit_side_len=960, det_limit_type='max', det_box_type='quad', det_db_thresh=0.3, det_db_box_thresh=0.6, det_db_unclip_ratio=1.5, max_batch_size=10, use_dilation=False, det_db_score_mode='fast', det_east_score_thresh=0.8, det_east_cover_thresh=0.1, det_east_nms_thresh=0.2, det_sast_score_thresh=0.5, det_sast_nms_thresh=0.2, det_pse_thresh=0, det_pse_box_thresh=0.85, det_pse_min_area=16, det_pse_scale=1, scales=[8, 16, 32], alpha=1.0, beta=1.0, fourier_degree=5, rec_algorithm='SVTR_LCNet', rec_model_dir='/home/Maurel/.paddleocr/whl/rec/en/en_PP-OCRv4_rec_infer', rec_image_inverse=True, rec_image_shape='3, 48, 320', rec_batch_num=6, max_text_length=25, rec_char_dict_path='/home/Maurel/.local/lib/python3.10/site-packages/paddleocr/ppocr/utils/en_dict.txt', use_space_char=True, vis_font_path='./doc/fonts/simfang.ttf', drop_score=0.5, e2e_algorithm='PGNet', e2e_model_dir=None, e2e_limit_side_len=768, e2e_limit_type='max', e2e_pgnet_score_thresh=0.5, e2e_char_dict_path='./ppocr/utils/ic15_dict.txt', e2e_pgnet_valid_set='totaltext', e2e_pgnet_mode='fast', use_angle_cls=True, cls_model_dir='/home/Maurel/.paddleocr/whl/cls/ch_ppocr_mobile_v2.0_cls_infer', cls_image_shape='3, 48, 192', label_list=['0', '180'], cls_batch_num=6, cls_thresh=0.9, enable_mkldnn=False, cpu_threads=10, use_pdserving=False, warmup=False, sr_model_dir=None, sr_image_shape='3, 32, 128', sr_batch_num=1, draw_img_save_dir='./inference_results', save_crop_res=False, crop_res_save_dir='./output', use_mp=False, total_process_num=1, process_id=0, benchmark=False, save_log_path='./log_output/', show_log=True, use_onnx=False, output='./output', table_max_len=488, table_algorithm='TableAttn', table_model_dir=None, merge_no_span_structure=True, table_char_dict_path=None, layout_model_dir=None, layout_dict_path=None, layout_score_threshold=0.5, layout_nms_threshold=0.5, kie_algorithm='LayoutXLM', ser_model_dir=None, re_model_dir=None, use_visual_backbone=True, ser_dict_path='../train_data/XFUND/class_list_xfun.txt', ocr_order_method=None, mode='structure', image_orientation=False, layout=True, table=True, ocr=True, recovery=False, use_pdf2docx_api=False, lang='en', det=True, rec=True, type='ocr', ocr_version='PP-OCRv4', structure_version='PP-StructureV2')
+[2025/09/25 23:49:00] ppocr DEBUG: Namespace(help='==SUPPRESS==', use_gpu=False, use_xpu=False, use_npu=False, ir_optim=True, use_tensorrt=False, min_subgraph_size=15, precision='fp32', gpu_mem=500, gpu_id=0, image_dir=None, page_num=0, det_algorithm='DB', det_model_dir='/home/Maurel/.paddleocr/whl/det/en/en_PP-OCRv3_det_infer', det_limit_side_len=960, det_limit_type='max', det_box_type='quad', det_db_thresh=0.3, det_db_box_thresh=0.6, det_db_unclip_ratio=1.5, max_batch_size=10, use_dilation=False, det_db_score_mode='fast', det_east_score_thresh=0.8, det_east_cover_thresh=0.1, det_east_nms_thresh=0.2, det_sast_score_thresh=0.5, det_sast_nms_thresh=0.2, det_pse_thresh=0, det_pse_box_thresh=0.85, det_pse_min_area=16, det_pse_scale=1, scales=[8, 16, 32], alpha=1.0, beta=1.0, fourier_degree=5, rec_algorithm='SVTR_LCNet', rec_model_dir='/home/Maurel/.paddleocr/whl/rec/en/en_PP-OCRv4_rec_infer', rec_image_inverse=True, rec_image_shape='3, 48, 320', rec_batch_num=6, max_text_length=25, rec_char_dict_path='/home/Maurel/.local/lib/python3.10/site-packages/paddleocr/ppocr/utils/en_dict.txt', use_space_char=True, vis_font_path='./doc/fonts/simfang.ttf', drop_score=0.5, e2e_algorithm='PGNet', e2e_model_dir=None, e2e_limit_side_len=768, e2e_limit_type='max', e2e_pgnet_score_thresh=0.5, e2e_char_dict_path='./ppocr/utils/ic15_dict.txt', e2e_pgnet_valid_set='totaltext', e2e_pgnet_mode='fast', use_angle_cls=True, cls_model_dir='/home/Maurel/.paddleocr/whl/cls/ch_ppocr_mobile_v2.0_cls_infer', cls_image_shape='3, 48, 192', label_list=['0', '180'], cls_batch_num=6, cls_thresh=0.9, enable_mkldnn=False, cpu_threads=10, use_pdserving=False, warmup=False, sr_model_dir=None, sr_image_shape='3, 32, 128', sr_batch_num=1, draw_img_save_dir='./inference_results', save_crop_res=False, crop_res_save_dir='./output', use_mp=False, total_process_num=1, process_id=0, benchmark=False, save_log_path='./log_output/', show_log=True, use_onnx=False, output='./output', table_max_len=488, table_algorithm='TableAttn', table_model_dir=None, merge_no_span_structure=True, table_char_dict_path=None, layout_model_dir=None, layout_dict_path=None, layout_score_threshold=0.5, layout_nms_threshold=0.5, kie_algorithm='LayoutXLM', ser_model_dir=None, re_model_dir=None, use_visual_backbone=True, ser_dict_path='../train_data/XFUND/class_list_xfun.txt', ocr_order_method=None, mode='structure', image_orientation=False, layout=True, table=True, ocr=True, recovery=False, use_pdf2docx_api=False, lang='en', det=True, rec=True, type='ocr', ocr_version='PP-OCRv4', structure_version='PP-StructureV2')
+
+📋 Options de vérification:
+1. Test rapide (10 premiers fichiers)
+2. Test moyen (25 premiers fichiers)
+3. Test complet (TOUS les fichiers)
+4. Test complet avec détails
+5. Quitter
+
+❓ Votre choix (1-5): 
+🚀 Test complet sur TOUS les fichiers...
+🚀 VÉRIFICATION COMPLÈTE DE TOUS LES FICHIERS TESTING DATA
+======================================================================
+📁 Dossier: Testing Data
+📊 Fichiers à tester: 85
+⏰ Démarrage: 2025-09-25 23:49:15
+🔧 Extracteurs: Standard vs FINAL ULTIME
+
+[  1/85] 🔍 leve1.jpg... [2025/09/25 23:49:16] ppocr DEBUG: dt_boxes num : 43, elapse : 0.2945287227630615
+[2025/09/25 23:49:16] ppocr DEBUG: cls num  : 43, elapse : 0.0594327449798584
+[2025/09/25 23:49:18] ppocr DEBUG: rec_res num  : 43, elapse : 1.7605156898498535
+Texte extrait: Pr0cedure N0.... RE615TRE F0NC1ER T1TRE N C00RD0NNEE5 Bnes X Y B1427484.52704121.76 5UPERF1C1E:03a 52ca B2427498.33704118.81 B3427493.17704094.38 B4427479.46704097.27 Leve rattache au 5ysteme 0e0desiq...
+Trouvé: B1 X=427484.52 Y=704121.76
+Trouvé: B2 X=427498.33 Y=704118.81
+Trouvé: B3 X=427493.17 Y=704094.38
+Trouvé: B4 X=427479.46 Y=704097.27
+🚀 EXTRACTION FINALE ULTIME pour leve1.jpg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:49:25] ppocr DEBUG: dt_boxes num : 43, elapse : 0.34061336517333984
+[2025/09/25 23:49:25] ppocr DEBUG: cls num  : 43, elapse : 0.050104379653930664
+[2025/09/25 23:49:28] ppocr DEBUG: rec_res num  : 43, elapse : 2.811478853225708
+   ✅ PaddleOCR: 457 caractères
+   ✅ Tesseract original PSM6: 600 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 6935 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 585 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=427484.52, Y=704121.76 (conf: 0.90, explicit_stuck)
+      B2: X=427498.33, Y=704118.81 (conf: 0.90, explicit_stuck)
+      B3: X=427493.17, Y=704094.38 (conf: 0.90, explicit_stuck)
+      B4: X=427479.46, Y=704097.27 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[  2/85] 🔍 leve212.png... [2025/09/25 23:49:45] ppocr DEBUG: dt_boxes num : 66, elapse : 0.21882915496826172
+[2025/09/25 23:49:45] ppocr DEBUG: cls num  : 66, elapse : 0.07581567764282227
+[2025/09/25 23:49:47] ppocr DEBUG: rec_res num  : 66, elapse : 1.7362861633300781
+Texte extrait: T1TREN C00RD0NNEE5 N0RD BT 392930.09699294.99 X Y B2 392922.77699270.66 B3 5uperficie:18a 95ca 392919.76699249.80 392871.22699271.92 392873.34699293.50 B6 392874.36699299.80 B7 392915.99699294.09 B8 3...
+Trouvé: B2 X=392922.77 Y=699270.66
+Trouvé: B6 X=392874.36 Y=699299.8
+Trouvé: B7 X=392915.99 Y=699294.09
+Trouvé: B8 X=392925.48 Y=699293.9
+🚀 EXTRACTION FINALE ULTIME pour leve212.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:49:48] ppocr DEBUG: dt_boxes num : 66, elapse : 0.13062310218811035
+[2025/09/25 23:49:48] ppocr DEBUG: cls num  : 66, elapse : 0.07476186752319336
+[2025/09/25 23:49:50] ppocr DEBUG: rec_res num  : 66, elapse : 1.6670031547546387
+   ✅ PaddleOCR: 388 caractères
+   ✅ Tesseract original PSM6: 425 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1597 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 410 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B6: PaddleOCR_explicit_stuck (conf: 0.90)
+   B7: PaddleOCR_explicit_stuck (conf: 0.90)
+   B8: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B1', 'B3', 'B4', 'B5']
+   ✅ B1 inféré: X=392935.48, Y=699309.80
+   ✅ B3 inféré: X=392917.15, Y=699293.61
+   ✅ B4 inféré: X=392932.15, Y=699301.61
+   ✅ B5 inféré: X=392947.15, Y=699309.61
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 8
+      B1: X=392935.48, Y=699309.80 (conf: 0.30, geometric)
+      B2: X=392922.77, Y=699270.66 (conf: 0.90, explicit_stuck)
+      B3: X=392917.15, Y=699293.61 (conf: 0.30, geometric)
+      B4: X=392932.15, Y=699301.61 (conf: 0.30, geometric)
+      B5: X=392947.15, Y=699309.61 (conf: 0.30, geometric)
+      B6: X=392874.36, Y=699299.80 (conf: 0.90, explicit_stuck)
+      B7: X=392915.99, Y=699294.09 (conf: 0.90, explicit_stuck)
+      B8: X=392925.48, Y=699293.90 (conf: 0.90, explicit_stuck)
+🎉 🏆 8 coords (100.0%) [+4]
+
+[  3/85] 🔍 leve213.png... [2025/09/25 23:49:54] ppocr DEBUG: dt_boxes num : 47, elapse : 0.19960689544677734
+[2025/09/25 23:49:54] ppocr DEBUG: cls num  : 47, elapse : 0.06501483917236328
+[2025/09/25 23:49:56] ppocr DEBUG: rec_res num  : 47, elapse : 1.289658784866333
+Texte extrait: T1TRE N C00RD0NNEE5 N0RD B8rnes X Y B1 422579.92707089.92 5URFACE: 03a 88ca B2 422590.00707089.00 B3 422586.42707062.41 B4 422570.26707064.02 B5 422576.18707087.24 707100,00 707100,00 V0ie de 10.00 me...
+Trouvé: B1 X=422579.92 Y=707089.92
+Trouvé: B2 X=422590.0 Y=707089.0
+Trouvé: B3 X=422586.42 Y=707062.41
+Trouvé: B4 X=422570.26 Y=707064.02
+Trouvé: B5 X=422576.18 Y=707087.24
+🚀 EXTRACTION FINALE ULTIME pour leve213.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:49:56] ppocr DEBUG: dt_boxes num : 47, elapse : 0.13166332244873047
+[2025/09/25 23:49:57] ppocr DEBUG: cls num  : 47, elapse : 0.05423259735107422
+[2025/09/25 23:49:58] ppocr DEBUG: rec_res num  : 47, elapse : 1.2663156986236572
+   ✅ PaddleOCR: 396 caractères
+   ✅ Tesseract original PSM6: 574 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 788 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 570 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   B5: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 5
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 5
+      B1: X=422579.92, Y=707089.92 (conf: 0.90, explicit_stuck)
+      B2: X=422590.00, Y=707089.00 (conf: 0.90, explicit_stuck)
+      B3: X=422586.42, Y=707062.41 (conf: 0.90, explicit_stuck)
+      B4: X=422570.26, Y=707064.02 (conf: 0.90, explicit_stuck)
+      B5: X=422576.18, Y=707087.24 (conf: 0.90, explicit_stuck)
+➡️ 👍 5 coords (62.5%) [+0]
+
+[  4/85] 🔍 leve214.png... [2025/09/25 23:50:02] ppocr DEBUG: dt_boxes num : 33, elapse : 0.15578889846801758
+[2025/09/25 23:50:02] ppocr DEBUG: cls num  : 33, elapse : 0.04847836494445801
+[2025/09/25 23:50:03] ppocr DEBUG: rec_res num  : 33, elapse : 0.8593201637268066
+Texte extrait: C00RD0NNEE5 N0RD 457115.91704818.57 B2 457141.67 704662.94 63 457045.27 456880.34 704590.80 704636.33 B4 5UPERF1C1E :4ha 65a 07ca B5 456853.12 B6 456876.42 704782.31 704778.96 457017.04 704803.60 /ers...
+Trouvé: B2 X=457141.67 Y=704662.94
+Trouvé: B6 X=456876.42 Y=704782.31
+🚀 EXTRACTION FINALE ULTIME pour leve214.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:50:03] ppocr DEBUG: dt_boxes num : 33, elapse : 0.0985264778137207
+[2025/09/25 23:50:03] ppocr DEBUG: cls num  : 33, elapse : 0.03852272033691406
+[2025/09/25 23:50:04] ppocr DEBUG: rec_res num  : 33, elapse : 0.8446347713470459
+   ✅ PaddleOCR: 283 caractères
+   ✅ Tesseract original PSM6: 176 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 563 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 180 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B6: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_implicit_b1_before_b2 (conf: 0.80)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B3', 'B4', 'B5']
+   ✅ B3 inféré: X=457052.17, Y=704758.61
+   ✅ B4 inféré: X=457067.17, Y=704766.61
+   ✅ B5 inféré: X=457082.17, Y=704774.61
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 6
+      B1: X=457115.91, Y=704818.57 (conf: 0.80, implicit_b1)
+      B2: X=457141.67, Y=704662.94 (conf: 1.00, explicit_normal)
+      B3: X=457052.17, Y=704758.61 (conf: 0.30, geometric)
+      B4: X=457067.17, Y=704766.61 (conf: 0.30, geometric)
+      B5: X=457082.17, Y=704774.61 (conf: 0.30, geometric)
+      B6: X=456876.42, Y=704782.31 (conf: 1.00, explicit_normal)
+🎉 ✅ 6 coords (75.0%) [+4]
+
+[  5/85] 🔍 leve218.png... [2025/09/25 23:50:07] ppocr DEBUG: dt_boxes num : 49, elapse : 0.13762259483337402
+[2025/09/25 23:50:07] ppocr DEBUG: cls num  : 49, elapse : 0.06165719032287598
+[2025/09/25 23:50:09] ppocr DEBUG: rec_res num  : 49, elapse : 1.2589709758758545
+Texte extrait: T1TRE N0RD C00RD0NNEE5 B8rnes X Y 5URFACE3a 84ca B1 425674.33711123.50 B2 425699.48711121.98 B3 425697.24711105.79 425675.87 711108.12 B4 B5 425673.34711112.00 711135.00 711135.00 metres 10.00 B4 21.5...
+Trouvé: B1 X=425674.33 Y=711123.5
+Trouvé: B2 X=425699.48 Y=711121.98
+Trouvé: B3 X=425697.24 Y=711105.79
+Trouvé: B5 X=425673.34 Y=711112.0
+🚀 EXTRACTION FINALE ULTIME pour leve218.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:50:10] ppocr DEBUG: dt_boxes num : 49, elapse : 0.13306140899658203
+[2025/09/25 23:50:10] ppocr DEBUG: cls num  : 49, elapse : 0.05672192573547363
+[2025/09/25 23:50:11] ppocr DEBUG: rec_res num  : 49, elapse : 1.2105696201324463
+   ✅ PaddleOCR: 372 caractères
+   ✅ Tesseract original PSM6: 325 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1073 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 331 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B5: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B4']
+   ✅ B4 inféré: X=425708.60, Y=711127.82
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 5
+      B1: X=425674.33, Y=711123.50 (conf: 0.90, explicit_stuck)
+      B2: X=425699.48, Y=711121.98 (conf: 0.90, explicit_stuck)
+      B3: X=425697.24, Y=711105.79 (conf: 0.90, explicit_stuck)
+      B4: X=425708.60, Y=711127.82 (conf: 0.30, geometric)
+      B5: X=425673.34, Y=711112.00 (conf: 0.90, explicit_stuck)
+🎉 👍 5 coords (62.5%) [+1]
+
+[  6/85] 🔍 leve219.png... [2025/09/25 23:50:17] ppocr DEBUG: dt_boxes num : 51, elapse : 0.13878154754638672
+[2025/09/25 23:50:17] ppocr DEBUG: cls num  : 51, elapse : 0.061536312103271484
+[2025/09/25 23:50:18] ppocr DEBUG: rec_res num  : 51, elapse : 1.3382811546325684
+Texte extrait: T1TRE N... C00rd0nnees X Y B1 402012.05741959.29 B2 402048.33741943.52 B3 402051.44741941.32 5UPERF1C1E : 30a 91ca B4 402046.58741923.44 B5 402032.96741880.99 B6 402025.18741867.91 B7 402021.60741871....
+Trouvé: B10 X=402006.86 Y=741933.66
+Trouvé: B101 X=402006.0 Y=861741.0
+Trouvé: B1 X=402012.05 Y=741959.29
+Trouvé: B2 X=402048.33 Y=741943.52
+Trouvé: B3 X=402051.44 Y=741941.32
+Trouvé: B4 X=402046.58 Y=741923.44
+Trouvé: B5 X=402032.96 Y=741880.99
+Trouvé: B6 X=402025.18 Y=741867.91
+Trouvé: B7 X=402021.6 Y=741871.19
+Trouvé: B9 X=402000.0 Y=741911.92
+🚀 EXTRACTION FINALE ULTIME pour leve219.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:50:20] ppocr DEBUG: dt_boxes num : 51, elapse : 0.12947678565979004
+[2025/09/25 23:50:20] ppocr DEBUG: cls num  : 51, elapse : 0.05811667442321777
+[2025/09/25 23:50:21] ppocr DEBUG: rec_res num  : 51, elapse : 1.2916193008422852
+   ✅ PaddleOCR: 437 caractères
+   ✅ Tesseract original PSM6: 587 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 8579 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 591 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 11
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   B5: PaddleOCR_explicit_stuck (conf: 0.90)
+   B6: PaddleOCR_explicit_stuck (conf: 0.90)
+   B7: PaddleOCR_explicit_stuck (conf: 0.90)
+   B9: PaddleOCR_explicit_stuck (conf: 0.90)
+   B10: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 9
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B8']
+   ✅ B8 inféré: X=402109.72, Y=741958.80
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 10
+      B1: X=402012.05, Y=741959.29 (conf: 0.90, explicit_stuck)
+      B2: X=402048.33, Y=741943.52 (conf: 0.90, explicit_stuck)
+      B3: X=402051.44, Y=741941.32 (conf: 0.90, explicit_stuck)
+      B4: X=402046.58, Y=741923.44 (conf: 0.90, explicit_stuck)
+      B5: X=402032.96, Y=741880.99 (conf: 0.90, explicit_stuck)
+      B6: X=402025.18, Y=741867.91 (conf: 0.90, explicit_stuck)
+      B7: X=402021.60, Y=741871.19 (conf: 0.90, explicit_stuck)
+      B8: X=402109.72, Y=741958.80 (conf: 0.30, geometric)
+      B9: X=402000.00, Y=741911.92 (conf: 0.90, explicit_stuck)
+      B10: X=402006.86, Y=741933.66 (conf: 0.90, explicit_stuck)
+➡️ 🏆 10 coords (125.0%) [+0]
+
+[  7/85] 🔍 leve220.png... [2025/09/25 23:50:37] ppocr DEBUG: dt_boxes num : 33, elapse : 0.13361144065856934
+[2025/09/25 23:50:37] ppocr DEBUG: cls num  : 33, elapse : 0.040985822677612305
+[2025/09/25 23:50:38] ppocr DEBUG: rec_res num  : 33, elapse : 0.8674092292785645
+Texte extrait: T1TRE N. C00rd0nnees Vers 5AV1 CENTRE X Y 5UPERF1C1E:04a 24ca B1 405865.72707154.49 B2 405879.49707147.88 B3 405867.94707123.21 405853.67707130.15 Axe v0ie de 15 metres B4 .ers LA RN1E1 + 707172.50 + ...
+Trouvé: B1 X=405865.72 Y=707154.49
+Trouvé: B2 X=405879.49 Y=707147.88
+Trouvé: B3 X=405867.94 Y=707123.21
+🚀 EXTRACTION FINALE ULTIME pour leve220.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:50:40] ppocr DEBUG: dt_boxes num : 33, elapse : 0.12814116477966309
+[2025/09/25 23:50:40] ppocr DEBUG: cls num  : 33, elapse : 0.04074740409851074
+[2025/09/25 23:50:41] ppocr DEBUG: rec_res num  : 33, elapse : 0.8474781513214111
+   ✅ PaddleOCR: 339 caractères
+   ✅ Tesseract original PSM6: 516 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 5589 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 514 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 3
+      B1: X=405865.72, Y=707154.49 (conf: 0.90, explicit_stuck)
+      B2: X=405879.49, Y=707147.88 (conf: 0.90, explicit_stuck)
+      B3: X=405867.94, Y=707123.21 (conf: 0.90, explicit_stuck)
+➡️ ⚠️ 3 coords (37.5%) [+0]
+
+[  8/85] 🔍 leve221.png... [2025/09/25 23:50:58] ppocr DEBUG: dt_boxes num : 31, elapse : 0.13304400444030762
+[2025/09/25 23:50:58] ppocr DEBUG: cls num  : 31, elapse : 0.03818869590759277
+[2025/09/25 23:50:59] ppocr DEBUG: rec_res num  : 31, elapse : 0.8675417900085449
+Texte extrait: T1TRE N.... C00rd0nnees XY B1402778.58722915.73 B2402803.80722914.75 B3402803.61722894.92 B4402778.31722895.93 5UPERF1C1E : 05a 01ca 722930.00- 722930.00 B1 B2 25.23 Passage de 3 metres Espace degage ...
+Trouvé: B1 X=402778.58 Y=722915.73
+Trouvé: B2 X=402803.8 Y=722914.75
+Trouvé: B3 X=402803.61 Y=722894.92
+Trouvé: B4 X=402778.31 Y=722895.93
+Trouvé: B5 X=402803.61 Y=722804.92
+🚀 EXTRACTION FINALE ULTIME pour leve221.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:01] ppocr DEBUG: dt_boxes num : 31, elapse : 0.12480330467224121
+[2025/09/25 23:51:01] ppocr DEBUG: cls num  : 31, elapse : 0.038921356201171875
+[2025/09/25 23:51:02] ppocr DEBUG: rec_res num  : 31, elapse : 0.831979513168335
+   ✅ PaddleOCR: 343 caractères
+   ✅ Tesseract original PSM6: 432 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 5820 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 446 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=402778.58, Y=722915.73 (conf: 0.90, explicit_stuck)
+      B2: X=402803.80, Y=722914.75 (conf: 0.90, explicit_stuck)
+      B3: X=402803.61, Y=722894.92 (conf: 0.90, explicit_stuck)
+      B4: X=402778.31, Y=722895.93 (conf: 0.90, explicit_stuck)
+⚠️ 👍 4 coords (50.0%) [+-1]
+
+[  9/85] 🔍 leve23.png... [2025/09/25 23:51:16] ppocr DEBUG: dt_boxes num : 63, elapse : 0.20931196212768555
+[2025/09/25 23:51:16] ppocr DEBUG: cls num  : 63, elapse : 0.10509181022644043
+[2025/09/25 23:51:18] ppocr DEBUG: rec_res num  : 63, elapse : 1.8708407878875732
+Texte extrait: Pr0cedure N0..... T1TRE N Livre F0ncier C00RD0NNEE5 N0RD B8mes X B2 B1 401374.38 712354.66 712334.71 5uperficie:10a 00ca B3 401349.45 712332.75 401322.94 401324.51 712330.79 712350.74 Be 401347.B8 712...
+Trouvé: B1 X=401374.38 Y=712354.66
+Trouvé: B3 X=401349.45 Y=712332.75
+🚀 EXTRACTION FINALE ULTIME pour leve23.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:18] ppocr DEBUG: dt_boxes num : 63, elapse : 0.1242072582244873
+[2025/09/25 23:51:18] ppocr DEBUG: cls num  : 63, elapse : 0.0740506649017334
+[2025/09/25 23:51:20] ppocr DEBUG: rec_res num  : 63, elapse : 1.90492844581604
+   ✅ PaddleOCR: 440 caractères
+   ✅ Tesseract original PSM6: 320 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 402 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 307 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 3
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 2
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B2']
+   ✅ B2 inféré: X=401354.42, Y=712339.71
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 3
+      B1: X=401374.38, Y=712354.66 (conf: 1.00, explicit_normal)
+      B2: X=401354.42, Y=712339.71 (conf: 0.30, geometric)
+      B3: X=401349.45, Y=712332.75 (conf: 1.00, explicit_normal)
+🎉 ⚠️ 3 coords (37.5%) [+1]
+
+[ 10/85] 🔍 leve24.png... [2025/09/25 23:51:22] ppocr DEBUG: dt_boxes num : 44, elapse : 0.2267460823059082
+[2025/09/25 23:51:22] ppocr DEBUG: cls num  : 44, elapse : 0.07170820236206055
+[2025/09/25 23:51:24] ppocr DEBUG: rec_res num  : 44, elapse : 1.3663055896759033
+Texte extrait: Pr0cedure N0..... T1TRE N Livre F0ncier C00RD0NNEE5 N0RD B8mes X Y B1 401344.03712401.54 5uperficie:12a 17ca B2 401347.82712353.35 B3 401322.94712350.74 N19 B4 401319.10712399.58 B1 B4 25.01 712400.79...
+Trouvé: B1 X=401344.03 Y=712401.54
+Trouvé: B2 X=401347.82 Y=712353.35
+Trouvé: B3 X=401322.94 Y=712350.74
+Trouvé: B4 X=401319.1 Y=712399.58
+🚀 EXTRACTION FINALE ULTIME pour leve24.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:24] ppocr DEBUG: dt_boxes num : 44, elapse : 0.15849900245666504
+[2025/09/25 23:51:24] ppocr DEBUG: cls num  : 44, elapse : 0.057845115661621094
+[2025/09/25 23:51:26] ppocr DEBUG: rec_res num  : 44, elapse : 1.2898569107055664
+   ✅ PaddleOCR: 368 caractères
+   ✅ Tesseract original PSM6: 291 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 398 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 302 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=401344.03, Y=712401.54 (conf: 0.90, explicit_stuck)
+      B2: X=401347.82, Y=712353.35 (conf: 0.90, explicit_stuck)
+      B3: X=401322.94, Y=712350.74 (conf: 0.90, explicit_stuck)
+      B4: X=401319.10, Y=712399.58 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 11/85] 🔍 leve251.jpg... [2025/09/25 23:51:28] ppocr DEBUG: dt_boxes num : 34, elapse : 0.18850159645080566
+[2025/09/25 23:51:28] ppocr DEBUG: cls num  : 34, elapse : 0.05761861801147461
+[2025/09/25 23:51:30] ppocr DEBUG: rec_res num  : 34, elapse : 1.0834879875183105
+Texte extrait: C00RD0NNEE5 N0RD 5UPERF1C1E:05a 00ca 8145J6633510935212 03453608.2 101935023 1039330.29 445366193103933218 1039365.00 1039365.00 Parce11e's 02 25.00 Parce11e's 000Z D0Z1 2500 Parce11e"e 103931500 1039...
+🚀 EXTRACTION FINALE ULTIME pour leve251.jpg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:31] ppocr DEBUG: dt_boxes num : 34, elapse : 0.11514925956726074
+[2025/09/25 23:51:31] ppocr DEBUG: cls num  : 34, elapse : 0.05557751655578613
+[2025/09/25 23:51:32] ppocr DEBUG: rec_res num  : 34, elapse : 1.0428550243377686
+   ✅ PaddleOCR: 273 caractères
+   ✅ Tesseract original PSM6: 11 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 703 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 9 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 12/85] 🔍 leve252.jpg... [2025/09/25 23:51:35] ppocr DEBUG: dt_boxes num : 35, elapse : 0.10051202774047852
+[2025/09/25 23:51:35] ppocr DEBUG: cls num  : 35, elapse : 0.05838966369628906
+[2025/09/25 23:51:36] ppocr DEBUG: rec_res num  : 35, elapse : 1.1295151710510254
+Texte extrait: C00RD0NNEE5 N0RD x Y 5URFACE05a 04ca B1 428128.29 724990.23 428157.79 724965.77 428154.32 724951.73 428137.00 428138.03 724967.34 B6 428121.01724981.45 725000.00 metes 10 de 22.10 16.22 B2 225 ECHELLE...
+Trouvé: B1 X=428128.29 Y=724990.23
+Trouvé: B6 X=428121.01 Y=724981.45
+🚀 EXTRACTION FINALE ULTIME pour leve252.jpg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:37] ppocr DEBUG: dt_boxes num : 35, elapse : 0.10606932640075684
+[2025/09/25 23:51:37] ppocr DEBUG: cls num  : 35, elapse : 0.046874284744262695
+[2025/09/25 23:51:39] ppocr DEBUG: rec_res num  : 35, elapse : 1.1016850471496582
+   ✅ PaddleOCR: 234 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1906 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B6: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_sequence_second (conf: 0.70)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B3', 'B4', 'B5']
+   ✅ B3 inféré: X=428143.20, Y=724983.15
+   ✅ B4 inféré: X=428158.20, Y=724991.15
+   ✅ B5 inféré: X=428173.20, Y=724999.15
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 6
+      B1: X=428128.29, Y=724990.23 (conf: 1.00, explicit_normal)
+      B2: X=428157.79, Y=724965.77 (conf: 0.70, sequence)
+      B3: X=428143.20, Y=724983.15 (conf: 0.30, geometric)
+      B4: X=428158.20, Y=724991.15 (conf: 0.30, geometric)
+      B5: X=428173.20, Y=724999.15 (conf: 0.30, geometric)
+      B6: X=428121.01, Y=724981.45 (conf: 0.90, explicit_stuck)
+🎉 ✅ 6 coords (75.0%) [+4]
+
+[ 13/85] 🔍 leve253.png... [2025/09/25 23:51:43] ppocr DEBUG: dt_boxes num : 40, elapse : 0.15241503715515137
+[2025/09/25 23:51:43] ppocr DEBUG: cls num  : 40, elapse : 0.04745149612426758
+[2025/09/25 23:51:44] ppocr DEBUG: rec_res num  : 40, elapse : 1.093569278717041
+Texte extrait: C00RD0NNEE5 N0RD 0rees 5URFACE:50 a 00 ca 412385.20701208.03 B2 412393.05 701108.34 B3 412343.20 701104.41 B4 412335.36 701204.11 Leve rattache au systeme W6$84 412414.21 412314.21 701206.22 34 701206...
+Trouvé: B2 X=412393.05 Y=701108.34
+Trouvé: B3 X=412343.2 Y=701104.41
+Trouvé: B4 X=412335.36 Y=701204.11
+🚀 EXTRACTION FINALE ULTIME pour leve253.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:44] ppocr DEBUG: dt_boxes num : 40, elapse : 0.10267019271850586
+[2025/09/25 23:51:44] ppocr DEBUG: cls num  : 40, elapse : 0.04828619956970215
+[2025/09/25 23:51:45] ppocr DEBUG: rec_res num  : 40, elapse : 1.0172350406646729
+   ✅ PaddleOCR: 367 caractères
+   ✅ Tesseract original PSM6: 383 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 228 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 356 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_implicit_b1_after_surface (conf: 0.85)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=412385.20, Y=701208.03 (conf: 0.85, implicit_b1_surface)
+      B2: X=412393.05, Y=701108.34 (conf: 1.00, explicit_normal)
+      B3: X=412343.20, Y=701104.41 (conf: 1.00, explicit_normal)
+      B4: X=412335.36, Y=701204.11 (conf: 1.00, explicit_normal)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 14/85] 🔍 leve255.png... [2025/09/25 23:51:47] ppocr DEBUG: dt_boxes num : 34, elapse : 0.19282078742980957
+[2025/09/25 23:51:47] ppocr DEBUG: cls num  : 34, elapse : 0.04182600975036621
+[2025/09/25 23:51:48] ppocr DEBUG: rec_res num  : 34, elapse : 0.915917158126831
+Texte extrait: N0RD C00RD0NNEE5W65 84 X 5UPERF1C1E 05a 10ca B1 444618.28 707150.05 82 444639.99 707148.89 B3 444639.25 707127.75 B4 444612.77 707129.17 707165.00 707165.00 B1 B2 21.74 2180 21.15 B4 26.53 B3 707115.0...
+Trouvé: B1 X=444618.28 Y=707150.05
+Trouvé: B3 X=444639.25 Y=707127.75
+Trouvé: B4 X=444612.77 Y=707129.17
+🚀 EXTRACTION FINALE ULTIME pour leve255.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:48] ppocr DEBUG: dt_boxes num : 34, elapse : 0.11416459083557129
+[2025/09/25 23:51:48] ppocr DEBUG: cls num  : 34, elapse : 0.041629791259765625
+[2025/09/25 23:51:49] ppocr DEBUG: rec_res num  : 34, elapse : 0.8738875389099121
+   ✅ PaddleOCR: 283 caractères
+   ✅ Tesseract original PSM6: 285 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 954 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 278 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B2']
+   ✅ B2 inféré: X=444615.93, Y=707131.66
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=444618.28, Y=707150.05 (conf: 1.00, explicit_normal)
+      B2: X=444615.93, Y=707131.66 (conf: 0.30, geometric)
+      B3: X=444639.25, Y=707127.75 (conf: 1.00, explicit_normal)
+      B4: X=444612.77, Y=707129.17 (conf: 1.00, explicit_normal)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 15/85] 🔍 leve257.png... [2025/09/25 23:51:52] ppocr DEBUG: dt_boxes num : 43, elapse : 0.18115448951721191
+[2025/09/25 23:51:52] ppocr DEBUG: cls num  : 43, elapse : 0.053050994873046875
+[2025/09/25 23:51:53] ppocr DEBUG: rec_res num  : 43, elapse : 1.1028575897216797
+Texte extrait: C00RD0NNEE5 B8rnes N0RD X Y 5urface:72a12ca B.1 350078.36 728529.28 B.2 350153.29 728516.59 350050.00 B.3 350101.68 728455.27 728412.22 350150.00 B.4 350056.71 8.5 350033.09728508.04 728530.00 8.1 728...
+🚀 EXTRACTION FINALE ULTIME pour leve257.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:54] ppocr DEBUG: dt_boxes num : 43, elapse : 0.11913394927978516
+[2025/09/25 23:51:54] ppocr DEBUG: cls num  : 43, elapse : 0.05076003074645996
+[2025/09/25 23:51:55] ppocr DEBUG: rec_res num  : 43, elapse : 1.0921084880828857
+   ✅ PaddleOCR: 302 caractères
+   ✅ Tesseract original PSM6: 250 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 820 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 247 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 1
+   B1: PaddleOCR_sequence_first (conf: 0.70)
+   Coordonnées déduplicées: 1
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 1
+      B1: X=350101.68, Y=728455.27 (conf: 0.70, sequence)
+🎉 ⚠️ 1 coords (12.5%) [+1]
+
+[ 16/85] 🔍 leve258.png... [2025/09/25 23:51:57] ppocr DEBUG: dt_boxes num : 36, elapse : 0.16211962699890137
+[2025/09/25 23:51:57] ppocr DEBUG: cls num  : 36, elapse : 0.03968191146850586
+[2025/09/25 23:51:58] ppocr DEBUG: rec_res num  : 36, elapse : 0.9106535911560059
+Texte extrait: N0RD C00RD0NNEE5 B8rnes X . 5URFACE:4a 00 B1 429157.21702548.62 B2 429158.96702528.69 B3 429137.28702547.00 429139.03 702527.06 B4 702560.00 7799 1F n*210 V0ie 84 20.00 2002 201 10.00 0etres 20.00 33 ...
+Trouvé: B1 X=429157.21 Y=702548.62
+Trouvé: B2 X=429158.96 Y=702528.69
+Trouvé: B3 X=429137.28 Y=702547.0
+🚀 EXTRACTION FINALE ULTIME pour leve258.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:51:58] ppocr DEBUG: dt_boxes num : 36, elapse : 0.10590910911560059
+[2025/09/25 23:51:58] ppocr DEBUG: cls num  : 36, elapse : 0.03972458839416504
+[2025/09/25 23:51:59] ppocr DEBUG: rec_res num  : 36, elapse : 0.8913736343383789
+   ✅ PaddleOCR: 293 caractères
+   ✅ Tesseract original PSM6: 216 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 225 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 223 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 3
+      B1: X=429157.21, Y=702548.62 (conf: 0.90, explicit_stuck)
+      B2: X=429158.96, Y=702528.69 (conf: 0.90, explicit_stuck)
+      B3: X=429137.28, Y=702547.00 (conf: 0.90, explicit_stuck)
+➡️ ⚠️ 3 coords (37.5%) [+0]
+
+[ 17/85] 🔍 leve259.png... [2025/09/25 23:52:01] ppocr DEBUG: dt_boxes num : 59, elapse : 0.16526269912719727
+[2025/09/25 23:52:01] ppocr DEBUG: cls num  : 59, elapse : 0.07678866386413574
+[2025/09/25 23:52:03] ppocr DEBUG: rec_res num  : 59, elapse : 1.638305902481079
+Texte extrait: C00RD0NNEE5 W65 84 B8rnes X B1 429731.62702674.92 N0RD 5URFACE :03a 25ca B2 429733.29 702658.87 B3 429713.13 702656.87 B4 429711.60 702672.83 + + 702690.00 702690.00 Rue n12.491 de 10.00 metres Rue n ...
+Trouvé: B2 X=429733.29 Y=702658.87
+Trouvé: B3 X=429713.13 Y=702656.87
+Trouvé: B4 X=429711.6 Y=702672.83
+Trouvé: B1 X=429731.62 Y=702674.92
+🚀 EXTRACTION FINALE ULTIME pour leve259.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:52:03] ppocr DEBUG: dt_boxes num : 59, elapse : 0.10623526573181152
+[2025/09/25 23:52:03] ppocr DEBUG: cls num  : 59, elapse : 0.06720805168151855
+[2025/09/25 23:52:05] ppocr DEBUG: rec_res num  : 59, elapse : 1.5458528995513916
+   ✅ PaddleOCR: 377 caractères
+   ✅ Tesseract original PSM6: 368 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 493 caractères
+   ✅ Tesseract binary PSM8: 5 caractères
+   ✅ Tesseract binary PSM13: 5 caractères
+   ✅ Tesseract otsu PSM6: 372 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=429731.62, Y=702674.92 (conf: 0.90, explicit_stuck)
+      B2: X=429733.29, Y=702658.87 (conf: 1.00, explicit_normal)
+      B3: X=429713.13, Y=702656.87 (conf: 1.00, explicit_normal)
+      B4: X=429711.60, Y=702672.83 (conf: 1.00, explicit_normal)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 18/85] 🔍 leve260.png... [2025/09/25 23:52:07] ppocr DEBUG: dt_boxes num : 60, elapse : 0.21137332916259766
+[2025/09/25 23:52:07] ppocr DEBUG: cls num  : 60, elapse : 0.0653696060180664
+[2025/09/25 23:52:08] ppocr DEBUG: rec_res num  : 60, elapse : 1.496288537979126
+Texte extrait: C00RD0NNEE5 N0RD X B 426181.36 725664.68 B2 426208.38 725647.12 B3 426240.37 725626.02 5UPERF1C1E: 11a 04ca B4 426233.04 725615.10 B5 426199.84 725634.00 B6 426187.77 725640.75 R7 426170.82 725648.50 ...
+Trouvé: B2 X=426208.38 Y=725647.12
+Trouvé: B3 X=426240.37 Y=725626.02
+Trouvé: B4 X=426233.04 Y=725615.1
+Trouvé: B5 X=426199.84 Y=725634.0
+Trouvé: B6 X=426187.77 Y=725640.75
+🚀 EXTRACTION FINALE ULTIME pour leve260.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:52:09] ppocr DEBUG: dt_boxes num : 60, elapse : 0.14134502410888672
+[2025/09/25 23:52:09] ppocr DEBUG: cls num  : 60, elapse : 0.06741857528686523
+[2025/09/25 23:52:11] ppocr DEBUG: rec_res num  : 60, elapse : 1.5245909690856934
+   ✅ PaddleOCR: 408 caractères
+   ✅ Tesseract original PSM6: 297 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1038 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 322 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B5: PaddleOCR_explicit_normal (conf: 1.00)
+   B6: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 5
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B1']
+   ✅ B1 inféré: X=426250.37, Y=725657.12
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 6
+      B1: X=426250.37, Y=725657.12 (conf: 0.30, geometric)
+      B2: X=426208.38, Y=725647.12 (conf: 1.00, explicit_normal)
+      B3: X=426240.37, Y=725626.02 (conf: 1.00, explicit_normal)
+      B4: X=426233.04, Y=725615.10 (conf: 1.00, explicit_normal)
+      B5: X=426199.84, Y=725634.00 (conf: 1.00, explicit_normal)
+      B6: X=426187.77, Y=725640.75 (conf: 1.00, explicit_normal)
+🎉 ✅ 6 coords (75.0%) [+1]
+
+[ 19/85] 🔍 leve261.png... [2025/09/25 23:52:14] ppocr DEBUG: dt_boxes num : 44, elapse : 0.210235595703125
+[2025/09/25 23:52:14] ppocr DEBUG: cls num  : 44, elapse : 0.06318449974060059
+[2025/09/25 23:52:16] ppocr DEBUG: rec_res num  : 44, elapse : 1.2074596881866455
+Texte extrait: Pr0cedure N..... RE615TRE F0NC1ER T1TRE N  C00RD0NNEE5 N0RD x Y B1 403825.84 707630.38 5URFACE : 05a 49ca B2 403836.57 707626.36  B3 403830.47707610.52 B4 403827.18707601.32 B5 403799.28707612.51 7076...
+Trouvé: B1 X=403825.84 Y=707630.38
+Trouvé: B2 X=403836.57 Y=707626.36
+Trouvé: B3 X=403830.47 Y=707610.52
+Trouvé: B4 X=403827.18 Y=707601.32
+Trouvé: B5 X=403799.28 Y=707612.51
+🚀 EXTRACTION FINALE ULTIME pour leve261.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:52:16] ppocr DEBUG: dt_boxes num : 44, elapse : 0.12926054000854492
+[2025/09/25 23:52:16] ppocr DEBUG: cls num  : 44, elapse : 0.052342891693115234
+[2025/09/25 23:52:17] ppocr DEBUG: rec_res num  : 44, elapse : 1.1619040966033936
+   ✅ PaddleOCR: 396 caractères
+   ✅ Tesseract original PSM6: 600 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 549 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 577 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   B5: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 5
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 5
+      B1: X=403825.84, Y=707630.38 (conf: 1.00, explicit_normal)
+      B2: X=403836.57, Y=707626.36 (conf: 1.00, explicit_normal)
+      B3: X=403830.47, Y=707610.52 (conf: 0.90, explicit_stuck)
+      B4: X=403827.18, Y=707601.32 (conf: 0.90, explicit_stuck)
+      B5: X=403799.28, Y=707612.51 (conf: 0.90, explicit_stuck)
+➡️ 👍 5 coords (62.5%) [+0]
+
+[ 20/85] 🔍 leve262.png... [2025/09/25 23:52:21] ppocr DEBUG: dt_boxes num : 45, elapse : 0.17674660682678223
+[2025/09/25 23:52:21] ppocr DEBUG: cls num  : 45, elapse : 0.06456112861633301
+[2025/09/25 23:52:22] ppocr DEBUG: rec_res num  : 45, elapse : 1.283287763595581
+Texte extrait: C00RD0NNEE5 N0RD Bnee X B1 46104.40876 B6 461518.67 5UPERF1C1E: 09ha 33a40ca 46154.81 80A7A08 80R531.86 1481.42 808277.05 87 461829.57 08410.01 B10 461100.63 808378.38 435. 811 812 8513.21 B13 481041....
+Trouvé: B10 X=461100.63 Y=808378.38
+🚀 EXTRACTION FINALE ULTIME pour leve262.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:52:23] ppocr DEBUG: dt_boxes num : 45, elapse : 0.12516117095947266
+[2025/09/25 23:52:23] ppocr DEBUG: cls num  : 45, elapse : 0.058624982833862305
+[2025/09/25 23:52:24] ppocr DEBUG: rec_res num  : 45, elapse : 1.296252965927124
+   ✅ PaddleOCR: 301 caractères
+   ✅ Tesseract original PSM6: 154 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 299 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 147 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 1
+   B10: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 1
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 1
+      B10: X=461100.63, Y=808378.38 (conf: 1.00, explicit_normal)
+➡️ ⚠️ 1 coords (12.5%) [+0]
+
+[ 21/85] 🔍 leve263.jpg... [2025/09/25 23:52:26] ppocr DEBUG: dt_boxes num : 34, elapse : 0.17703819274902344
+[2025/09/25 23:52:26] ppocr DEBUG: cls num  : 34, elapse : 0.05460786819458008
+[2025/09/25 23:52:27] ppocr DEBUG: rec_res num  : 34, elapse : 1.0990548133850098
+Texte extrait: C00RD0NNEE5 N0RD 430021.41 72618125 72618498 82 430040.94 5URFACE 05a 25ca B3 430035.39 72615354 B4 43001552 72616102 726195.00 + 726195.00 B 93 720145.00 726145.00- P1an 0e stus0n Ecnee15000  indique...
+🚀 EXTRACTION FINALE ULTIME pour leve263.jpg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:52:27] ppocr DEBUG: dt_boxes num : 34, elapse : 0.14019513130187988
+[2025/09/25 23:52:27] ppocr DEBUG: cls num  : 34, elapse : 0.05305957794189453
+[2025/09/25 23:52:28] ppocr DEBUG: rec_res num  : 34, elapse : 1.0074851512908936
+   ✅ PaddleOCR: 254 caractères
+   ✅ Tesseract original PSM6: 255 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 319 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 233 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 22/85] 🔍 leve266.png... [2025/09/25 23:52:30] ppocr DEBUG: dt_boxes num : 53, elapse : 0.2044692039489746
+[2025/09/25 23:52:31] ppocr DEBUG: cls num  : 53, elapse : 0.10201168060302734
+[2025/09/25 23:52:32] ppocr DEBUG: rec_res num  : 53, elapse : 1.4630753993988037
+Texte extrait: N0RD B1 424704.73 424686.76 726187.88 B2 726182.45 5UPERF1C1E:04a 00ca B3 424700.43 726167.21 B4 424698.88 726162.10 B5 424680.77 726167.57 B6 424682.25 726172.63 424665.00 726200.00 81 Parce11e a * m...
+Trouvé: B3 X=424700.43 Y=726167.21
+Trouvé: B4 X=424698.88 Y=726162.1
+Trouvé: B5 X=424680.77 Y=726167.57
+Trouvé: B6 X=424682.25 Y=726172.63
+🚀 EXTRACTION FINALE ULTIME pour leve266.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:52:32] ppocr DEBUG: dt_boxes num : 53, elapse : 0.11310338973999023
+[2025/09/25 23:52:33] ppocr DEBUG: cls num  : 53, elapse : 0.06571173667907715
+[2025/09/25 23:52:34] ppocr DEBUG: rec_res num  : 53, elapse : 1.5400395393371582
+   ✅ PaddleOCR: 367 caractères
+   ✅ Tesseract original PSM6: 165 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 620 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 153 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 6
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B5: PaddleOCR_explicit_normal (conf: 1.00)
+   B6: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_sequence_first (conf: 0.70)
+   B2: PaddleOCR_sequence_second (conf: 0.70)
+   Coordonnées déduplicées: 6
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 6
+      B1: X=424682.25, Y=726172.63 (conf: 0.70, sequence)
+      B2: X=424665.00, Y=726200.00 (conf: 0.70, sequence)
+      B3: X=424700.43, Y=726167.21 (conf: 1.00, explicit_normal)
+      B4: X=424698.88, Y=726162.10 (conf: 1.00, explicit_normal)
+      B5: X=424680.77, Y=726167.57 (conf: 1.00, explicit_normal)
+      B6: X=424682.25, Y=726172.63 (conf: 1.00, explicit_normal)
+🎉 ✅ 6 coords (75.0%) [+2]
+
+[ 23/85] 🔍 leve267.png... [2025/09/25 23:52:37] ppocr DEBUG: dt_boxes num : 80, elapse : 0.30855464935302734
+[2025/09/25 23:52:38] ppocr DEBUG: cls num  : 80, elapse : 0.12774419784545898
+[2025/09/25 23:52:40] ppocr DEBUG: rec_res num  : 80, elapse : 2.4419643878936768
+Texte extrait: Pr0cedure N12329 T1TREN5 L1VRE F0NC1ER C00RD0NNEE5 N0RD Parne X E1 3970.373160.03 5URFACE  1ha 10a 75ca 4010.65149.09 4001.67516200 4088.2103.70 4038.04 0702 B7 4012.10507430 Ru0 M 401035008.5 Ce 83 4...
+🚀 EXTRACTION FINALE ULTIME pour leve267.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:52:42] ppocr DEBUG: dt_boxes num : 80, elapse : 0.15137410163879395
+[2025/09/25 23:52:42] ppocr DEBUG: cls num  : 80, elapse : 0.10490250587463379
+[2025/09/25 23:52:44] ppocr DEBUG: rec_res num  : 80, elapse : 2.1388401985168457
+   ✅ PaddleOCR: 584 caractères
+   ✅ Tesseract original PSM6: 794 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1636 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 798 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 24/85] 🔍 leve268.png... [2025/09/25 23:52:51] ppocr DEBUG: dt_boxes num : 35, elapse : 0.21627044677734375
+[2025/09/25 23:52:51] ppocr DEBUG: cls num  : 35, elapse : 0.04240918159484863
+[2025/09/25 23:52:52] ppocr DEBUG: rec_res num  : 35, elapse : 0.9069509506225586
+Texte extrait: T Bnest 13915.0 427549.30 427 427545.55 7529.25 RD0NNE 7543.94 X 713846.18 427515.00 ECHELLET'17/500 Parce11eb" N0RD 215. D de V01e arcei1e irniquee 8 5URFACE4a94ca 427565.00 L1VRE F0NC1ER 0099551 713...
+🚀 EXTRACTION FINALE ULTIME pour leve268.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:53:00] ppocr DEBUG: dt_boxes num : 35, elapse : 0.1275186538696289
+[2025/09/25 23:53:00] ppocr DEBUG: cls num  : 35, elapse : 0.03986620903015137
+[2025/09/25 23:53:01] ppocr DEBUG: rec_res num  : 35, elapse : 0.8673698902130127
+   ✅ PaddleOCR: 204 caractères
+   ✅ Tesseract original PSM6: 4923 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 6579 caractères
+   ✅ Tesseract binary PSM8: 5 caractères
+   ✅ Tesseract binary PSM13: 5 caractères
+   ✅ Tesseract otsu PSM6: 4574 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 25/85] 🔍 leve269.png... [2025/09/25 23:53:30] ppocr DEBUG: dt_boxes num : 44, elapse : 0.16303801536560059
+[2025/09/25 23:53:30] ppocr DEBUG: cls num  : 44, elapse : 0.051821231842041016
+[2025/09/25 23:53:32] ppocr DEBUG: rec_res num  : 44, elapse : 1.1651005744934082
+Texte extrait: N0RD C00RD0NNEE5 R0me X Y B/ 500. () 5001.000) 5URFACE17a 40ca B2 549.46 1N2.39 33 541.43 161108 B4 511.03 460.79 B5 482.45 467.2) 505.00 31 Passage de 5.00 metres 5251 B2  mtres 0 23.71 Pui1s 5.00 B5...
+🚀 EXTRACTION FINALE ULTIME pour leve269.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:53:32] ppocr DEBUG: dt_boxes num : 44, elapse : 0.11475729942321777
+[2025/09/25 23:53:32] ppocr DEBUG: cls num  : 44, elapse : 0.053154945373535156
+[2025/09/25 23:53:33] ppocr DEBUG: rec_res num  : 44, elapse : 1.123274803161621
+   ✅ PaddleOCR: 254 caractères
+   ✅ Tesseract original PSM6: 260 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 436 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 257 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 26/85] 🔍 leve270.png... [2025/09/25 23:53:35] ppocr DEBUG: dt_boxes num : 30, elapse : 0.15225839614868164
+[2025/09/25 23:53:35] ppocr DEBUG: cls num  : 30, elapse : 0.032874107360839844
+[2025/09/25 23:53:39] ppocr DEBUG: rec_res num  : 30, elapse : 4.253947973251343
+Texte extrait: C00RD0NNEE5 N0RD Bnes X B2 455132.23 705746.21 455157.09 455157.12 705745.61 B3 705732.61 B4 455132.10 705733.16 5UPERF1C1E:03a 25ca 705766.00 705766.00- 12.00 B3 Xd 705716.00 705716.00- PLAN DE 51TUA...
+Trouvé: B2 X=455132.23 Y=705746.21
+Trouvé: B4 X=455132.1 Y=705733.16
+🚀 EXTRACTION FINALE ULTIME pour leve270.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:53:40] ppocr DEBUG: dt_boxes num : 30, elapse : 0.22322940826416016
+[2025/09/25 23:53:40] ppocr DEBUG: cls num  : 30, elapse : 0.06735944747924805
+[2025/09/25 23:53:45] ppocr DEBUG: rec_res num  : 30, elapse : 5.405054569244385
+   ✅ PaddleOCR: 248 caractères
+   ✅ Tesseract original PSM6: 261 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 775 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 265 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 3
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_sequence_first (conf: 0.70)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B3']
+   ✅ B3 inféré: X=455139.69, Y=705745.86
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=455132.23, Y=705746.21 (conf: 0.70, sequence)
+      B2: X=455132.23, Y=705746.21 (conf: 1.00, explicit_normal)
+      B3: X=455139.69, Y=705745.86 (conf: 0.30, geometric)
+      B4: X=455132.10, Y=705733.16 (conf: 1.00, explicit_normal)
+🎉 👍 4 coords (50.0%) [+2]
+
+[ 27/85] 🔍 leve272.png... [2025/09/25 23:53:53] ppocr DEBUG: dt_boxes num : 37, elapse : 0.7588386535644531
+[2025/09/25 23:53:53] ppocr DEBUG: cls num  : 37, elapse : 0.20170950889587402
+[2025/09/25 23:53:58] ppocr DEBUG: rec_res num  : 37, elapse : 4.895769834518433
+Texte extrait: C00RD0NNEE5 N0RD Bnes X Y B1415367.68715210.58 5URFACE:05a 07ca B2 415388.32715205.42 B3 B4415362.09 715187.50 415383.31 715182.58 715221.00 + + 715221.00 - V0ie B1 de 21.28 3.00 metres B2 235 84 21.7...
+Trouvé: B1 X=415367.68 Y=715210.58
+Trouvé: B4 X=415362.09 Y=715187.5
+Trouvé: B2 X=415388.32 Y=715205.42
+🚀 EXTRACTION FINALE ULTIME pour leve272.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:53:59] ppocr DEBUG: dt_boxes num : 37, elapse : 0.42652034759521484
+[2025/09/25 23:53:59] ppocr DEBUG: cls num  : 37, elapse : 0.08622026443481445
+[2025/09/25 23:54:02] ppocr DEBUG: rec_res num  : 37, elapse : 3.177269458770752
+   ✅ PaddleOCR: 280 caractères
+   ✅ Tesseract original PSM6: 177 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 183 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 173 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B3']
+   ✅ B3 inféré: X=415380.20, Y=715205.17
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=415367.68, Y=715210.58 (conf: 0.90, explicit_stuck)
+      B2: X=415388.32, Y=715205.42 (conf: 0.90, explicit_stuck)
+      B3: X=415380.20, Y=715205.17 (conf: 0.30, geometric)
+      B4: X=415362.09, Y=715187.50 (conf: 1.00, explicit_normal)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 28/85] 🔍 leve273.png... [2025/09/25 23:54:04] ppocr DEBUG: dt_boxes num : 43, elapse : 0.18882441520690918
+[2025/09/25 23:54:04] ppocr DEBUG: cls num  : 43, elapse : 0.07430696487426758
+[2025/09/25 23:54:09] ppocr DEBUG: rec_res num  : 43, elapse : 5.3851494789123535
+Texte extrait: TABLEAU DE5 C00RD0NNEE5 N0RD B1400435.34699564.99 0rnes B2400437.88699550.89 5URFACE : 63a 54ca B3400455.79699451.59 B4400429.11699446.87 B5400402.37699442.16 B6400384.58699541.89 B7400381.38699559.80...
+Trouvé: B1 X=400435.34 Y=699564.99
+Trouvé: B2 X=400437.88 Y=699550.89
+Trouvé: B3 X=400455.79 Y=699451.59
+Trouvé: B4 X=400429.11 Y=699446.87
+Trouvé: B5 X=400402.37 Y=699442.16
+Trouvé: B6 X=400384.58 Y=699541.89
+Trouvé: B7 X=400381.38 Y=699559.8
+🚀 EXTRACTION FINALE ULTIME pour leve273.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:54:10] ppocr DEBUG: dt_boxes num : 43, elapse : 0.36202359199523926
+[2025/09/25 23:54:10] ppocr DEBUG: cls num  : 43, elapse : 0.14549708366394043
+[2025/09/25 23:54:15] ppocr DEBUG: rec_res num  : 43, elapse : 5.187381744384766
+   ✅ PaddleOCR: 523 caractères
+   ✅ Tesseract original PSM6: 391 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 422 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 370 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 7
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   B5: PaddleOCR_explicit_stuck (conf: 0.90)
+   B6: PaddleOCR_explicit_stuck (conf: 0.90)
+   B7: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 7
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 7
+      B1: X=400435.34, Y=699564.99 (conf: 0.90, explicit_stuck)
+      B2: X=400437.88, Y=699550.89 (conf: 0.90, explicit_stuck)
+      B3: X=400455.79, Y=699451.59 (conf: 0.90, explicit_stuck)
+      B4: X=400429.11, Y=699446.87 (conf: 0.90, explicit_stuck)
+      B5: X=400402.37, Y=699442.16 (conf: 0.90, explicit_stuck)
+      B6: X=400384.58, Y=699541.89 (conf: 0.90, explicit_stuck)
+      B7: X=400381.38, Y=699559.80 (conf: 0.90, explicit_stuck)
+➡️ ✅ 7 coords (87.5%) [+0]
+
+[ 29/85] 🔍 leve275.png... [2025/09/25 23:54:18] ppocr DEBUG: dt_boxes num : 50, elapse : 0.5148899555206299
+[2025/09/25 23:54:19] ppocr DEBUG: cls num  : 50, elapse : 0.6039950847625732
+[2025/09/25 23:54:22] ppocr DEBUG: rec_res num  : 50, elapse : 2.8371589183807373
+Texte extrait: T1TRE N...... RE615TRE F0NC1ER C00RD0NNEE5 X Y 5URFACE:04a 40ca 81 435690.30 705242.54 435705.83 705222.90 B3 435692.39 705211.60 B4 435676.82 705231.29 435665.00 +435715.00 705250.00 d'emprise 705250...
+Trouvé: B3 X=435692.39 Y=705211.6
+Trouvé: B4 X=435676.82 Y=705231.29
+🚀 EXTRACTION FINALE ULTIME pour leve275.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:54:22] ppocr DEBUG: dt_boxes num : 50, elapse : 0.31474995613098145
+[2025/09/25 23:54:23] ppocr DEBUG: cls num  : 50, elapse : 0.09175491333007812
+[2025/09/25 23:54:24] ppocr DEBUG: rec_res num  : 50, elapse : 1.3998560905456543
+   ✅ PaddleOCR: 402 caractères
+   ✅ Tesseract original PSM6: 458 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 640 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 434 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_sequence_first (conf: 0.70)
+   B2: PaddleOCR_sequence_second (conf: 0.70)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=435690.30, Y=705242.54 (conf: 0.70, sequence)
+      B2: X=435705.83, Y=705222.90 (conf: 0.70, sequence)
+      B3: X=435692.39, Y=705211.60 (conf: 1.00, explicit_normal)
+      B4: X=435676.82, Y=705231.29 (conf: 1.00, explicit_normal)
+🎉 👍 4 coords (50.0%) [+2]
+
+[ 30/85] 🔍 leve278.png... [2025/09/25 23:54:27] ppocr DEBUG: dt_boxes num : 46, elapse : 0.11907720565795898
+[2025/09/25 23:54:27] ppocr DEBUG: cls num  : 46, elapse : 0.0886695384979248
+[2025/09/25 23:54:28] ppocr DEBUG: rec_res num  : 46, elapse : 1.260718584060669
+Texte extrait: RE615TREF0NC1ER 1TRE N C00RD0NNEE5 N0RD X Y 5URFACE:03a 50ca B1 432859.07 704145.74 B2 432862.67 704129.04 B3 432842.54 704124.61 B4 432839.05704141.19 704160.00 704160.00- Parce11e  Rue B n13.019 B4 ...
+Trouvé: B1 X=432859.07 Y=704145.74
+Trouvé: B2 X=432862.67 Y=704129.04
+Trouvé: B3 X=432842.54 Y=704124.61
+Trouvé: B4 X=432839.05 Y=704141.19
+🚀 EXTRACTION FINALE ULTIME pour leve278.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:54:28] ppocr DEBUG: dt_boxes num : 46, elapse : 0.12112927436828613
+[2025/09/25 23:54:28] ppocr DEBUG: cls num  : 46, elapse : 0.0784921646118164
+[2025/09/25 23:54:30] ppocr DEBUG: rec_res num  : 46, elapse : 1.2585010528564453
+   ✅ PaddleOCR: 347 caractères
+   ✅ Tesseract original PSM6: 425 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 543 caractères
+   ✅ Tesseract binary PSM8: 4 caractères
+   ✅ Tesseract binary PSM13: 4 caractères
+   ✅ Tesseract otsu PSM6: 381 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=432859.07, Y=704145.74 (conf: 1.00, explicit_normal)
+      B2: X=432862.67, Y=704129.04 (conf: 1.00, explicit_normal)
+      B3: X=432842.54, Y=704124.61 (conf: 1.00, explicit_normal)
+      B4: X=432839.05, Y=704141.19 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 31/85] 🔍 leve28.png... [2025/09/25 23:54:32] ppocr DEBUG: dt_boxes num : 49, elapse : 0.2197098731994629
+[2025/09/25 23:54:32] ppocr DEBUG: cls num  : 49, elapse : 0.0826117992401123
+[2025/09/25 23:54:35] ppocr DEBUG: rec_res num  : 49, elapse : 3.2464420795440674
+Texte extrait: Pr0c6dure n".... Livre F0ncier EXTRA1T- N0RD C00RD0NNEE5 Beres X 424263.03 719547.86 8.2 424258.82 719518.39 8.3 424233.47 719526.14 5URFACE:06a 75ca B.4424236.54719547.68 719558.00 + + 719558.00 B4 1...
+🚀 EXTRACTION FINALE ULTIME pour leve28.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:54:36] ppocr DEBUG: dt_boxes num : 49, elapse : 0.14207077026367188
+[2025/09/25 23:54:36] ppocr DEBUG: cls num  : 49, elapse : 0.06936478614807129
+[2025/09/25 23:54:38] ppocr DEBUG: rec_res num  : 49, elapse : 2.419950485229492
+   ✅ PaddleOCR: 396 caractères
+   ✅ Tesseract original PSM6: 241 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 347 caractères
+   ✅ Tesseract binary PSM8: 4 caractères
+   ✅ Tesseract binary PSM13: 4 caractères
+   ✅ Tesseract otsu PSM6: 220 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 32/85] 🔍 leve289.png... [2025/09/25 23:54:40] ppocr DEBUG: dt_boxes num : 43, elapse : 0.392261266708374
+[2025/09/25 23:54:40] ppocr DEBUG: cls num  : 43, elapse : 0.07105064392089844
+[2025/09/25 23:54:42] ppocr DEBUG: rec_res num  : 43, elapse : 1.7453012466430664
+Texte extrait: T1TREN... Pr0cedure N Livre F0ncier N0RD C00rd0nnees Bnes X Y 5URFACE:03a 25ca 425569.55718731.98 B.2 425582.54718731.37 B.3 425581.36718706.40 B.4 425568.38718706.97 - 718745.00 + 718745.00 Parce11e ...
+🚀 EXTRACTION FINALE ULTIME pour leve289.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:54:45] ppocr DEBUG: dt_boxes num : 43, elapse : 0.7749958038330078
+[2025/09/25 23:54:45] ppocr DEBUG: cls num  : 43, elapse : 0.1046290397644043
+[2025/09/25 23:54:47] ppocr DEBUG: rec_res num  : 43, elapse : 1.7516932487487793
+   ✅ PaddleOCR: 372 caractères
+   ✅ Tesseract original PSM6: 97 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 899 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 71 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 33/85] 🔍 leve29.png... [2025/09/25 23:54:49] ppocr DEBUG: dt_boxes num : 56, elapse : 0.25133728981018066
+[2025/09/25 23:54:49] ppocr DEBUG: cls num  : 56, elapse : 0.11158537864685059
+[2025/09/25 23:54:52] ppocr DEBUG: rec_res num  : 56, elapse : 3.023102283477783
+Texte extrait: Pr0ceduire n. T1TRE N--- RE615TRE F0NC1ER C00rd0nnees:W65 84 N0RD Bnes 5URFACE:3a 84ca 419621.33 B1 704035.51 B2 419621.33 704010.51 B3 419605.97 704010.51 B4 419605.97 704035.51 REN5E16NEMT5E 1007 54...
+Trouvé: B2 X=419621.33 Y=704010.51
+Trouvé: B3 X=419605.97 Y=704010.51
+Trouvé: B4 X=419605.97 Y=704035.51
+🚀 EXTRACTION FINALE ULTIME pour leve29.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:54:53] ppocr DEBUG: dt_boxes num : 56, elapse : 0.1926586627960205
+[2025/09/25 23:54:53] ppocr DEBUG: cls num  : 56, elapse : 0.0944054126739502
+[2025/09/25 23:54:56] ppocr DEBUG: rec_res num  : 56, elapse : 2.767030954360962
+   ✅ PaddleOCR: 461 caractères
+   ✅ Tesseract original PSM6: 145 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 467 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 128 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 3
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B1']
+   ✅ B1 inféré: X=419631.33, Y=704045.51
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=419631.33, Y=704045.51 (conf: 0.30, geometric)
+      B2: X=419621.33, Y=704010.51 (conf: 1.00, explicit_normal)
+      B3: X=419605.97, Y=704010.51 (conf: 1.00, explicit_normal)
+      B4: X=419605.97, Y=704035.51 (conf: 1.00, explicit_normal)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 34/85] 🔍 leve290.png... [2025/09/25 23:54:58] ppocr DEBUG: dt_boxes num : 40, elapse : 0.2827768325805664
+[2025/09/25 23:54:58] ppocr DEBUG: cls num  : 40, elapse : 0.08765459060668945
+[2025/09/25 23:54:59] ppocr DEBUG: rec_res num  : 40, elapse : 1.2762165069580078
+Texte extrait: Pr0cedure N".... L1VRE F0NC1ER T1TRE N C00RD0NNEE5 B8rnes X Y N0RD B1 408585.04 736219.71 736221.56 5URFACE:05a 25ca B2 408608.50 B3 408609.30 736200.14 B4 408583.49736198.51 736234.00 736234.00 B1 23...
+Trouvé: B1 X=408585.04 Y=736219.71
+Trouvé: B3 X=408609.3 Y=736200.14
+Trouvé: B4 X=408583.49 Y=736198.51
+🚀 EXTRACTION FINALE ULTIME pour leve290.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:00] ppocr DEBUG: dt_boxes num : 40, elapse : 0.6384549140930176
+[2025/09/25 23:55:01] ppocr DEBUG: cls num  : 40, elapse : 0.14164280891418457
+[2025/09/25 23:55:03] ppocr DEBUG: rec_res num  : 40, elapse : 2.131873846054077
+   ✅ PaddleOCR: 320 caractères
+   ✅ Tesseract original PSM6: 205 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1353 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 208 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 3
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B2']
+   ✅ B2 inféré: X=408585.11, Y=736202.12
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=408585.04, Y=736219.71 (conf: 1.00, explicit_normal)
+      B2: X=408585.11, Y=736202.12 (conf: 0.30, geometric)
+      B3: X=408609.30, Y=736200.14 (conf: 1.00, explicit_normal)
+      B4: X=408583.49, Y=736198.51 (conf: 0.90, explicit_stuck)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 35/85] 🔍 leve291.png... [2025/09/25 23:55:07] ppocr DEBUG: dt_boxes num : 57, elapse : 0.2941091060638428
+[2025/09/25 23:55:07] ppocr DEBUG: cls num  : 57, elapse : 0.12010908126831055
+[2025/09/25 23:55:09] ppocr DEBUG: rec_res num  : 57, elapse : 2.0893051624298096
+Texte extrait: M0rce11ement du TF N863 Registre F0NC1ER T1TRE N..... C00RD0NNEE5 N0RD B8rnes X 5URFACE:11a 25ca B1 455703.58 703700.60 B2 455704.93 703670.63 B3 155654.98 703668.38 B4 455654.30703683.36 B5 455679.28...
+Trouvé: B1 X=455703.58 Y=703700.6
+Trouvé: B2 X=455704.93 Y=703670.63
+Trouvé: B4 X=455654.3 Y=703683.36
+Trouvé: B5 X=455679.28 Y=703684.49
+🚀 EXTRACTION FINALE ULTIME pour leve291.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:10] ppocr DEBUG: dt_boxes num : 57, elapse : 0.13220667839050293
+[2025/09/25 23:55:10] ppocr DEBUG: cls num  : 57, elapse : 0.07076454162597656
+[2025/09/25 23:55:12] ppocr DEBUG: rec_res num  : 57, elapse : 1.9003360271453857
+   ✅ PaddleOCR: 493 caractères
+   ✅ Tesseract original PSM6: 470 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 562 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 489 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   B5: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B3']
+   ✅ B3 inféré: X=455693.02, Y=703688.77
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 5
+      B1: X=455703.58, Y=703700.60 (conf: 1.00, explicit_normal)
+      B2: X=455704.93, Y=703670.63 (conf: 1.00, explicit_normal)
+      B3: X=455693.02, Y=703688.77 (conf: 0.30, geometric)
+      B4: X=455654.30, Y=703683.36 (conf: 0.90, explicit_stuck)
+      B5: X=455679.28, Y=703684.49 (conf: 0.90, explicit_stuck)
+🎉 👍 5 coords (62.5%) [+1]
+
+[ 36/85] 🔍 leve292.png... [2025/09/25 23:55:14] ppocr DEBUG: dt_boxes num : 46, elapse : 0.24679851531982422
+[2025/09/25 23:55:14] ppocr DEBUG: cls num  : 46, elapse : 0.05643439292907715
+[2025/09/25 23:55:15] ppocr DEBUG: rec_res num  : 46, elapse : 1.2807347774505615
+Texte extrait: Registre F0NC1ER T1TRE N...... C00RD0NNEE5 N0RD B8raes X 5URFACE:11a 25ca B1 456264.21 703921.09 B2 456266.24 703876.13 B3 456241.26 703875.00 B4 456239.24703919.96 455850.00 704115.00 704115.00 V0ie ...
+Trouvé: B1 X=456264.21 Y=703921.09
+Trouvé: B2 X=456266.24 Y=703876.13
+Trouvé: B3 X=456241.26 Y=703875.0
+Trouvé: B4 X=456239.24 Y=703919.96
+🚀 EXTRACTION FINALE ULTIME pour leve292.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:15] ppocr DEBUG: dt_boxes num : 46, elapse : 0.13306665420532227
+[2025/09/25 23:55:15] ppocr DEBUG: cls num  : 46, elapse : 0.056466102600097656
+[2025/09/25 23:55:17] ppocr DEBUG: rec_res num  : 46, elapse : 1.215074062347412
+   ✅ PaddleOCR: 377 caractères
+   ✅ Tesseract original PSM6: 456 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 499 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 455 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=456264.21, Y=703921.09 (conf: 1.00, explicit_normal)
+      B2: X=456266.24, Y=703876.13 (conf: 1.00, explicit_normal)
+      B3: X=456241.26, Y=703875.00 (conf: 1.00, explicit_normal)
+      B4: X=456239.24, Y=703919.96 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 37/85] 🔍 leve293.png... [2025/09/25 23:55:18] ppocr DEBUG: dt_boxes num : 47, elapse : 0.12370610237121582
+[2025/09/25 23:55:19] ppocr DEBUG: cls num  : 47, elapse : 0.07429838180541992
+[2025/09/25 23:55:20] ppocr DEBUG: rec_res num  : 47, elapse : 1.320329189300537
+Texte extrait: Registre F0NC1ER T1TRE N..... C00RD0NNEE5 N0RD B8rnes X 5URFACE:11a 25ca B1 456239.24703919.96 B2 456241.26703875.00 B3 456216.29703873.88 B4 456214.26703918.83 455850.00 704115.00 704115.00 V0ie de 2...
+Trouvé: B1 X=456239.24 Y=703919.96
+Trouvé: B2 X=456241.26 Y=703875.0
+Trouvé: B3 X=456216.29 Y=703873.88
+Trouvé: B4 X=456214.26 Y=703918.83
+🚀 EXTRACTION FINALE ULTIME pour leve293.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:20] ppocr DEBUG: dt_boxes num : 47, elapse : 0.11642646789550781
+[2025/09/25 23:55:20] ppocr DEBUG: cls num  : 47, elapse : 0.05720329284667969
+[2025/09/25 23:55:22] ppocr DEBUG: rec_res num  : 47, elapse : 1.3111884593963623
+   ✅ PaddleOCR: 406 caractères
+   ✅ Tesseract original PSM6: 428 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 466 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 436 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=456239.24, Y=703919.96 (conf: 0.90, explicit_stuck)
+      B2: X=456241.26, Y=703875.00 (conf: 0.90, explicit_stuck)
+      B3: X=456216.29, Y=703873.88 (conf: 0.90, explicit_stuck)
+      B4: X=456214.26, Y=703918.83 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 38/85] 🔍 leve294.png... [2025/09/25 23:55:23] ppocr DEBUG: dt_boxes num : 49, elapse : 0.11826968193054199
+[2025/09/25 23:55:23] ppocr DEBUG: cls num  : 49, elapse : 0.08376479148864746
+[2025/09/25 23:55:25] ppocr DEBUG: rec_res num  : 49, elapse : 1.6662561893463135
+Texte extrait: M0rce11ement du TF N*863 Registre F0NC1ER T1TRE N..... C00RD0NNEE5 N0RD B8rnes X A 5URFACE:11a 25ca B1 455498.46704697.37 B2 B3 455499.58704672.40 B4 455454.63 704670.37 455453.50704695.35 455850.00 7...
+Trouvé: B4 X=455454.63 Y=704670.37
+Trouvé: B1 X=455498.46 Y=704697.37
+Trouvé: B3 X=455499.58 Y=704672.4
+🚀 EXTRACTION FINALE ULTIME pour leve294.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:26] ppocr DEBUG: dt_boxes num : 49, elapse : 0.12776780128479004
+[2025/09/25 23:55:26] ppocr DEBUG: cls num  : 49, elapse : 0.08182907104492188
+[2025/09/25 23:55:27] ppocr DEBUG: rec_res num  : 49, elapse : 1.58705735206604
+   ✅ PaddleOCR: 394 caractères
+   ✅ Tesseract original PSM6: 492 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 481 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 479 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B2']
+   ✅ B2 inféré: X=455476.72, Y=704676.05
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=455498.46, Y=704697.37 (conf: 0.90, explicit_stuck)
+      B2: X=455476.72, Y=704676.05 (conf: 0.30, geometric)
+      B3: X=455499.58, Y=704672.40 (conf: 0.90, explicit_stuck)
+      B4: X=455454.63, Y=704670.37 (conf: 1.00, explicit_normal)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 39/85] 🔍 leve295.png... [2025/09/25 23:55:29] ppocr DEBUG: dt_boxes num : 39, elapse : 0.20190668106079102
+[2025/09/25 23:55:29] ppocr DEBUG: cls num  : 39, elapse : 0.06669950485229492
+[2025/09/25 23:55:31] ppocr DEBUG: rec_res num  : 39, elapse : 1.2152769565582275
+Texte extrait: M0rce11ement du TF N863 Registre F0NC1ER T1TRE N0 ...... C00RD0NNEE5 N0RD 0rnes X Y 5URFACE:11a 25ca B1 455499.58704672.40 B2 455500.71704647.42 B3 455455.76704645.39 B4 455454.63704670.37 455850.00 7...
+Trouvé: B1 X=455499.58 Y=704672.4
+Trouvé: B2 X=455500.71 Y=704647.42
+Trouvé: B3 X=455455.76 Y=704645.39
+Trouvé: B4 X=455454.63 Y=704670.37
+🚀 EXTRACTION FINALE ULTIME pour leve295.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:31] ppocr DEBUG: dt_boxes num : 39, elapse : 0.12238192558288574
+[2025/09/25 23:55:31] ppocr DEBUG: cls num  : 39, elapse : 0.05359649658203125
+[2025/09/25 23:55:32] ppocr DEBUG: rec_res num  : 39, elapse : 1.165651798248291
+   ✅ PaddleOCR: 380 caractères
+   ✅ Tesseract original PSM6: 525 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 556 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 534 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=455499.58, Y=704672.40 (conf: 0.90, explicit_stuck)
+      B2: X=455500.71, Y=704647.42 (conf: 0.90, explicit_stuck)
+      B3: X=455455.76, Y=704645.39 (conf: 0.90, explicit_stuck)
+      B4: X=455454.63, Y=704670.37 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 40/85] 🔍 leve296.png... [2025/09/25 23:55:34] ppocr DEBUG: dt_boxes num : 50, elapse : 0.18104934692382812
+[2025/09/25 23:55:34] ppocr DEBUG: cls num  : 50, elapse : 0.07616305351257324
+[2025/09/25 23:55:36] ppocr DEBUG: rec_res num  : 50, elapse : 1.3945538997650146
+Texte extrait: M0rce11ement du TF N863 Registre F0NC1ER T1TRE N ...... C00RD0NNEE5 N0RD B8rnes X Y 5URFACE:15a 00ca 11 455423.53704693.99 B2 455425.79704644.04 B3 455395.82 704642.69 B4 455393.56704692.64 455850.00 ...
+Trouvé: B3 X=455395.82 Y=704642.69
+Trouvé: B2 X=455425.79 Y=704644.04
+Trouvé: B4 X=455393.56 Y=704692.64
+🚀 EXTRACTION FINALE ULTIME pour leve296.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:36] ppocr DEBUG: dt_boxes num : 50, elapse : 0.1331779956817627
+[2025/09/25 23:55:36] ppocr DEBUG: cls num  : 50, elapse : 0.06864142417907715
+[2025/09/25 23:55:38] ppocr DEBUG: rec_res num  : 50, elapse : 1.3161139488220215
+   ✅ PaddleOCR: 420 caractères
+   ✅ Tesseract original PSM6: 550 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 558 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 527 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   B1: PaddleOCR_implicit_b1_after_surface (conf: 0.85)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=455423.53, Y=704693.99 (conf: 0.85, implicit_b1_surface)
+      B2: X=455425.79, Y=704644.04 (conf: 0.90, explicit_stuck)
+      B3: X=455395.82, Y=704642.69 (conf: 1.00, explicit_normal)
+      B4: X=455393.56, Y=704692.64 (conf: 0.90, explicit_stuck)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 41/85] 🔍 leve297.png... [2025/09/25 23:55:40] ppocr DEBUG: dt_boxes num : 49, elapse : 0.18892478942871094
+[2025/09/25 23:55:40] ppocr DEBUG: cls num  : 49, elapse : 0.0785529613494873
+[2025/09/25 23:55:41] ppocr DEBUG: rec_res num  : 49, elapse : 1.688786268234253
+Texte extrait: M0rce11ement du TF N863 Registre F0NC1ER T1TRE N0...... C00RD0NNEE5 N0RD B8rnes X A 5URFACE:17a46ca 455393.56704692.64 B2 455395.82704642.69 B3 455362.11 704641.17 B4 455357.50704691.01 455850.00 7041...
+Trouvé: B3 X=455362.11 Y=704641.17
+Trouvé: B2 X=455395.82 Y=704642.69
+Trouvé: B4 X=455357.5 Y=704691.01
+🚀 EXTRACTION FINALE ULTIME pour leve297.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:42] ppocr DEBUG: dt_boxes num : 49, elapse : 0.18324875831604004
+[2025/09/25 23:55:42] ppocr DEBUG: cls num  : 49, elapse : 0.09640121459960938
+[2025/09/25 23:55:44] ppocr DEBUG: rec_res num  : 49, elapse : 1.6391785144805908
+   ✅ PaddleOCR: 428 caractères
+   ✅ Tesseract original PSM6: 525 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 540 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 530 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   B1: PaddleOCR_implicit_b1_after_surface (conf: 0.85)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=455393.56, Y=704692.64 (conf: 0.85, implicit_b1_surface)
+      B2: X=455395.82, Y=704642.69 (conf: 0.90, explicit_stuck)
+      B3: X=455362.11, Y=704641.17 (conf: 1.00, explicit_normal)
+      B4: X=455357.50, Y=704691.01 (conf: 0.90, explicit_stuck)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 42/85] 🔍 leve298.png... [2025/09/25 23:55:46] ppocr DEBUG: dt_boxes num : 43, elapse : 0.19546961784362793
+[2025/09/25 23:55:46] ppocr DEBUG: cls num  : 43, elapse : 0.05749344825744629
+[2025/09/25 23:55:47] ppocr DEBUG: rec_res num  : 43, elapse : 1.3386569023132324
+Texte extrait: M0rce11ement du TF N*863 Registre F0NC1ER T1TRE N...... C00RD0NNEE5 N0RD 0rnes X Y 5URFACE:15a 00ca B1 455453.50704695.34 B2 455455.76704645.39 B3 455425.79704644.04 B4 455423.53704693.99 455850.00 70...
+Trouvé: B1 X=455453.5 Y=704695.34
+Trouvé: B2 X=455455.76 Y=704645.39
+Trouvé: B3 X=455425.79 Y=704644.04
+Trouvé: B4 X=455423.53 Y=704693.99
+🚀 EXTRACTION FINALE ULTIME pour leve298.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:55:48] ppocr DEBUG: dt_boxes num : 43, elapse : 0.1484084129333496
+[2025/09/25 23:55:48] ppocr DEBUG: cls num  : 43, elapse : 0.06705164909362793
+[2025/09/25 23:55:49] ppocr DEBUG: rec_res num  : 43, elapse : 1.2493209838867188
+   ✅ PaddleOCR: 403 caractères
+   ✅ Tesseract original PSM6: 571 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 568 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 533 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=455453.50, Y=704695.34 (conf: 0.90, explicit_stuck)
+      B2: X=455455.76, Y=704645.39 (conf: 0.90, explicit_stuck)
+      B3: X=455425.79, Y=704644.04 (conf: 0.90, explicit_stuck)
+      B4: X=455423.53, Y=704693.99 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 43/85] 🔍 leve3.jpg... [2025/09/25 23:55:59] ppocr DEBUG: dt_boxes num : 47, elapse : 0.4379749298095703
+[2025/09/25 23:55:59] ppocr DEBUG: cls num  : 47, elapse : 0.13217425346374512
+[2025/09/25 23:56:01] ppocr DEBUG: rec_res num  : 47, elapse : 2.3097777366638184
+Texte extrait: Pr0cedure n0... L1VRE F0NC1ER T1TRE N. C00RD0NNEE5 N0RD X Y 427094.70 712773.67 B1 B2 427110.61 712767.66 B3 427103.58 712748.94 B4 427099.06 712746.69 5URFACE :04a 28ca B5427084.21 712750.65 712785.0...
+Trouvé: B2 X=427110.61 Y=712767.66
+Trouvé: B3 X=427103.58 Y=712748.94
+Trouvé: B4 X=427099.06 Y=712746.69
+Trouvé: B5 X=427084.21 Y=712750.65
+🚀 EXTRACTION FINALE ULTIME pour leve3.jpg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:56:06] ppocr DEBUG: dt_boxes num : 47, elapse : 0.2766146659851074
+[2025/09/25 23:56:06] ppocr DEBUG: cls num  : 47, elapse : 0.08273577690124512
+[2025/09/25 23:56:07] ppocr DEBUG: rec_res num  : 47, elapse : 1.300976037979126
+   ✅ PaddleOCR: 380 caractères
+   ✅ Tesseract original PSM6: 677 caractères
+   ✅ Tesseract original PSM8: 4 caractères
+   ✅ Tesseract original PSM13: 4 caractères
+   ✅ Tesseract binary PSM6: 12888 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 664 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B5: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B1']
+   ✅ B1 inféré: X=427120.61, Y=712777.66
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 5
+      B1: X=427120.61, Y=712777.66 (conf: 0.30, geometric)
+      B2: X=427110.61, Y=712767.66 (conf: 1.00, explicit_normal)
+      B3: X=427103.58, Y=712748.94 (conf: 1.00, explicit_normal)
+      B4: X=427099.06, Y=712746.69 (conf: 1.00, explicit_normal)
+      B5: X=427084.21, Y=712750.65 (conf: 1.00, explicit_normal)
+🎉 👍 5 coords (62.5%) [+1]
+
+[ 44/85] 🔍 leve30.png... [2025/09/25 23:56:45] ppocr DEBUG: dt_boxes num : 70, elapse : 0.22298860549926758
+[2025/09/25 23:56:45] ppocr DEBUG: cls num  : 70, elapse : 0.12121057510375977
+[2025/09/25 23:56:47] ppocr DEBUG: rec_res num  : 70, elapse : 2.2621352672576904
+Texte extrait: Pr0cedure n.... T1TRE N RE615TRE F0NC1ER C00RD0NNEE5 N0RD 5nes X B1 454785.57756912.98 454797.51756887.80 454800.03 756862.43 5UPERF1C1E:1ha 66a 85ca 454816.08 454818.41 756737.11 756786.08 454707.16 ...
+Trouvé: B12 X=454716.35 Y=756846.65
+Trouvé: B13 X=454715.11 Y=756865.28
+Trouvé: B16 X=454728.84 Y=756883.49
+Trouvé: B17 X=454756.18 Y=756899.03
+Trouvé: B1 X=454785.57 Y=756912.98
+🚀 EXTRACTION FINALE ULTIME pour leve30.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:56:48] ppocr DEBUG: dt_boxes num : 70, elapse : 0.11131763458251953
+[2025/09/25 23:56:48] ppocr DEBUG: cls num  : 70, elapse : 0.11132049560546875
+[2025/09/25 23:56:50] ppocr DEBUG: rec_res num  : 70, elapse : 2.2164700031280518
+   ✅ PaddleOCR: 590 caractères
+   ✅ Tesseract original PSM6: 187 caractères
+   ✅ Tesseract original PSM8: 4 caractères
+   ✅ Tesseract original PSM13: 4 caractères
+   ✅ Tesseract binary PSM6: 1412 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 190 caractères
+   ✅ Tesseract otsu PSM8: 4 caractères
+   ✅ Tesseract otsu PSM13: 4 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B12: PaddleOCR_explicit_normal (conf: 1.00)
+   B13: PaddleOCR_explicit_normal (conf: 1.00)
+   B16: PaddleOCR_explicit_normal (conf: 1.00)
+   B17: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 5
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B9', 'B10', 'B11', 'B14', 'B15']
+   ✅ B2 inféré: X=454732.91, Y=756877.49
+   ✅ B3 inféré: X=454747.91, Y=756885.49
+   ✅ B4 inféré: X=454762.91, Y=756893.49
+   ✅ B5 inféré: X=454777.91, Y=756901.49
+   ✅ B6 inféré: X=454792.91, Y=756909.49
+   ✅ B7 inféré: X=454807.91, Y=756917.49
+   ✅ B8 inféré: X=454822.91, Y=756925.49
+   ✅ B9 inféré: X=454837.91, Y=756933.49
+   ✅ B10 inféré: X=454852.91, Y=756941.49
+   ✅ B11 inféré: X=454867.91, Y=756949.49
+   ✅ B14 inféré: X=454912.91, Y=756973.49
+   ✅ B15 inféré: X=454927.91, Y=756981.49
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 17
+      B1: X=454785.57, Y=756912.98 (conf: 0.90, explicit_stuck)
+      B2: X=454732.91, Y=756877.49 (conf: 0.30, geometric)
+      B3: X=454747.91, Y=756885.49 (conf: 0.30, geometric)
+      B4: X=454762.91, Y=756893.49 (conf: 0.30, geometric)
+      B5: X=454777.91, Y=756901.49 (conf: 0.30, geometric)
+      B6: X=454792.91, Y=756909.49 (conf: 0.30, geometric)
+      B7: X=454807.91, Y=756917.49 (conf: 0.30, geometric)
+      B8: X=454822.91, Y=756925.49 (conf: 0.30, geometric)
+      B9: X=454837.91, Y=756933.49 (conf: 0.30, geometric)
+      B10: X=454852.91, Y=756941.49 (conf: 0.30, geometric)
+      B11: X=454867.91, Y=756949.49 (conf: 0.30, geometric)
+      B12: X=454716.35, Y=756846.65 (conf: 1.00, explicit_normal)
+      B13: X=454715.11, Y=756865.28 (conf: 1.00, explicit_normal)
+      B14: X=454912.91, Y=756973.49 (conf: 0.30, geometric)
+      B15: X=454927.91, Y=756981.49 (conf: 0.30, geometric)
+      B16: X=454728.84, Y=756883.49 (conf: 1.00, explicit_normal)
+      B17: X=454756.18, Y=756899.03 (conf: 1.00, explicit_normal)
+🎉 🏆 17 coords (212.5%) [+12]
+
+[ 45/85] 🔍 leve31.png... [2025/09/25 23:56:53] ppocr DEBUG: dt_boxes num : 42, elapse : 0.1974020004272461
+[2025/09/25 23:56:54] ppocr DEBUG: cls num  : 42, elapse : 0.05033993721008301
+[2025/09/25 23:56:56] ppocr DEBUG: rec_res num  : 42, elapse : 2.0638949871063232
+Texte extrait: Pr0ceduren... Livre F0ncier T1TRE N0RD C00RD0NNEE5 X A 5URFACE:04a 80ca B.2426658.21711861.47 B.1426646.34711878.79 B.3426656.59711857.89 B.4426634.36711855.58 B.5426624.82711870.55 711892.00 + + 7118...
+🚀 EXTRACTION FINALE ULTIME pour leve31.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:56:57] ppocr DEBUG: dt_boxes num : 42, elapse : 0.10909223556518555
+[2025/09/25 23:56:57] ppocr DEBUG: cls num  : 42, elapse : 0.06149482727050781
+[2025/09/25 23:57:00] ppocr DEBUG: rec_res num  : 42, elapse : 3.7190539836883545
+   ✅ PaddleOCR: 396 caractères
+   ✅ Tesseract original PSM6: 154 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1046 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 149 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 46/85] 🔍 leve32.png... [2025/09/25 23:57:04] ppocr DEBUG: dt_boxes num : 29, elapse : 0.4488668441772461
+[2025/09/25 23:57:04] ppocr DEBUG: cls num  : 29, elapse : 0.07927727699279785
+[2025/09/25 23:57:06] ppocr DEBUG: rec_res num  : 29, elapse : 1.6302382946014404
+Texte extrait: T1TREN TABLEAU DE5 C00RD0NNEE5 N0RD 5UPERF1C1E:04a 01ca B1431257.55705035.72 B2431272.84 705021.44 B3431259.43705007.64 B4431244.23705022.27 705045.00 705045.00 Parce11e  1nc0nnu Parce11eq 84 0F Parce...
+Trouvé: B1 X=431257.55 Y=705035.72
+Trouvé: B3 X=431259.43 Y=705007.64
+Trouvé: B4 X=431244.23 Y=705022.27
+Trouvé: B2 X=431272.84 Y=705021.44
+🚀 EXTRACTION FINALE ULTIME pour leve32.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:57:08] ppocr DEBUG: dt_boxes num : 29, elapse : 0.2368459701538086
+[2025/09/25 23:57:08] ppocr DEBUG: cls num  : 29, elapse : 0.041036128997802734
+[2025/09/25 23:57:09] ppocr DEBUG: rec_res num  : 29, elapse : 1.1385748386383057
+   ✅ PaddleOCR: 304 caractères
+   ✅ Tesseract original PSM6: 184 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 243 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 200 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=431257.55, Y=705035.72 (conf: 0.90, explicit_stuck)
+      B2: X=431272.84, Y=705021.44 (conf: 1.00, explicit_normal)
+      B3: X=431259.43, Y=705007.64 (conf: 0.90, explicit_stuck)
+      B4: X=431244.23, Y=705022.27 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 47/85] 🔍 leve35.png... [2025/09/25 23:57:12] ppocr DEBUG: dt_boxes num : 45, elapse : 0.3764197826385498
+[2025/09/25 23:57:12] ppocr DEBUG: cls num  : 45, elapse : 0.10775113105773926
+[2025/09/25 23:57:13] ppocr DEBUG: rec_res num  : 45, elapse : 1.3511295318603516
+Texte extrait: T1TREN C00RD0NNEE5 N0RD B8rnes B1 426342.90715746.46 B2 426360.27 715738.39 B3 426350.46 715718.61 B4 426333.31715727.11 5URFACE:04a 18ca 715757.00 + + 715757.00- Parce11e d" B1 / Parce11e e" 19.15 B2...
+Trouvé: B2 X=426360.27 Y=715738.39
+Trouvé: B3 X=426350.46 Y=715718.61
+Trouvé: B1 X=426342.9 Y=715746.46
+Trouvé: B4 X=426333.31 Y=715727.11
+🚀 EXTRACTION FINALE ULTIME pour leve35.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:57:14] ppocr DEBUG: dt_boxes num : 45, elapse : 0.12805819511413574
+[2025/09/25 23:57:14] ppocr DEBUG: cls num  : 45, elapse : 0.0617220401763916
+[2025/09/25 23:57:15] ppocr DEBUG: rec_res num  : 45, elapse : 1.2529067993164062
+   ✅ PaddleOCR: 322 caractères
+   ✅ Tesseract original PSM6: 293 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1771 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 286 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=426342.90, Y=715746.46 (conf: 0.90, explicit_stuck)
+      B2: X=426360.27, Y=715738.39 (conf: 1.00, explicit_normal)
+      B3: X=426350.46, Y=715718.61 (conf: 1.00, explicit_normal)
+      B4: X=426333.31, Y=715727.11 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 48/85] 🔍 leve38.png... [2025/09/25 23:57:19] ppocr DEBUG: dt_boxes num : 53, elapse : 0.19917988777160645
+[2025/09/25 23:57:19] ppocr DEBUG: cls num  : 53, elapse : 0.07190847396850586
+[2025/09/25 23:57:20] ppocr DEBUG: rec_res num  : 53, elapse : 1.521754264831543
+Texte extrait: T1TRE N C00RD0NNEE5 N0RD B1 417750.64 417772.90 731432.50 417794.67 731426.22 731419.97 5URFACE19a 42ca 417615.62 731413.69 417036.20 731408.03 417810.10 417029.34 417809.50 731393.90 417768.43 731391...
+Trouvé: B10 X=417766.9 Y=731405.34
+🚀 EXTRACTION FINALE ULTIME pour leve38.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:57:21] ppocr DEBUG: dt_boxes num : 53, elapse : 0.10737276077270508
+[2025/09/25 23:57:21] ppocr DEBUG: cls num  : 53, elapse : 0.07042407989501953
+[2025/09/25 23:57:22] ppocr DEBUG: rec_res num  : 53, elapse : 1.3891441822052002
+   ✅ PaddleOCR: 391 caractères
+   ✅ Tesseract original PSM6: 411 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 576 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 427 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B10: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_sequence_first (conf: 0.70)
+   B2: PaddleOCR_sequence_second (conf: 0.70)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B9']
+   ✅ B3 inféré: X=417480.41, Y=731413.02
+   ✅ B4 inféré: X=417495.41, Y=731421.02
+   ✅ B5 inféré: X=417510.41, Y=731429.02
+   ✅ B6 inféré: X=417525.41, Y=731437.02
+   ✅ B7 inféré: X=417540.41, Y=731445.02
+   ✅ B8 inféré: X=417555.41, Y=731453.02
+   ✅ B9 inféré: X=417570.41, Y=731461.02
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 10
+      B1: X=417615.62, Y=731413.69 (conf: 0.70, sequence)
+      B2: X=417036.20, Y=731408.03 (conf: 0.70, sequence)
+      B3: X=417480.41, Y=731413.02 (conf: 0.30, geometric)
+      B4: X=417495.41, Y=731421.02 (conf: 0.30, geometric)
+      B5: X=417510.41, Y=731429.02 (conf: 0.30, geometric)
+      B6: X=417525.41, Y=731437.02 (conf: 0.30, geometric)
+      B7: X=417540.41, Y=731445.02 (conf: 0.30, geometric)
+      B8: X=417555.41, Y=731453.02 (conf: 0.30, geometric)
+      B9: X=417570.41, Y=731461.02 (conf: 0.30, geometric)
+      B10: X=417766.90, Y=731405.34 (conf: 1.00, explicit_normal)
+🎉 🏆 10 coords (125.0%) [+9]
+
+[ 49/85] 🔍 leve39.png... [2025/09/25 23:57:24] ppocr DEBUG: dt_boxes num : 5, elapse : 0.11638355255126953
+[2025/09/25 23:57:24] ppocr DEBUG: cls num  : 5, elapse : 0.009077072143554688
+[2025/09/25 23:57:24] ppocr DEBUG: rec_res num  : 5, elapse : 0.19884276390075684
+Texte extrait: T1TRE N-05 N0RD 5URFACE: 3ha 26a 78ca + A ee re ‘rhe ym | ee re ad | 5b tisha |  5N EE)...
+🚀 EXTRACTION FINALE ULTIME pour leve39.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:57:24] ppocr DEBUG: dt_boxes num : 5, elapse : 0.052141666412353516
+[2025/09/25 23:57:24] ppocr DEBUG: cls num  : 5, elapse : 0.00899815559387207
+[2025/09/25 23:57:25] ppocr DEBUG: rec_res num  : 5, elapse : 0.1680908203125
+   ✅ PaddleOCR: 39 caractères
+   ✅ Tesseract original PSM6: 77 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 63 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 76 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 50/85] 🔍 leve4.jpeg... [2025/09/25 23:57:28] ppocr DEBUG: dt_boxes num : 52, elapse : 1.1667399406433105
+[2025/09/25 23:57:29] ppocr DEBUG: cls num  : 52, elapse : 0.09065794944763184
+[2025/09/25 23:57:30] ppocr DEBUG: rec_res num  : 52, elapse : 1.377441644668579
+Texte extrait: Pr0cedure N.... Registre F0ncier T1TRE N0 C00RD0NNEE5 N0RD B8rnes X Y 5uperficie05a 01ca B1 416624.41706501.09 B2 416624.20706475.97 B3 416604.32706475.39 B4 416604.32706500.43 706515.00 706515.00 10....
+Trouvé: B1 X=416624.41 Y=706501.09
+Trouvé: B2 X=416624.2 Y=706475.97
+Trouvé: B3 X=416604.32 Y=706475.39
+Trouvé: B4 X=416604.32 Y=706500.43
+🚀 EXTRACTION FINALE ULTIME pour leve4.jpeg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:57:43] ppocr DEBUG: dt_boxes num : 52, elapse : 0.171797513961792
+[2025/09/25 23:57:43] ppocr DEBUG: cls num  : 52, elapse : 0.06524777412414551
+[2025/09/25 23:57:44] ppocr DEBUG: rec_res num  : 52, elapse : 1.361818552017212
+   ✅ PaddleOCR: 450 caractères
+   ✅ Tesseract original PSM6: 578 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 14516 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 567 caractères
+   ✅ Tesseract otsu PSM8: 5 caractères
+   ✅ Tesseract otsu PSM13: 5 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=416624.41, Y=706501.09 (conf: 0.90, explicit_stuck)
+      B2: X=416624.20, Y=706475.97 (conf: 0.90, explicit_stuck)
+      B3: X=416604.32, Y=706475.39 (conf: 0.90, explicit_stuck)
+      B4: X=416604.32, Y=706500.43 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 51/85] 🔍 leve40.png... [2025/09/25 23:58:14] ppocr DEBUG: dt_boxes num : 41, elapse : 0.2475571632385254
+[2025/09/25 23:58:14] ppocr DEBUG: cls num  : 41, elapse : 0.059044837951660156
+[2025/09/25 23:58:15] ppocr DEBUG: rec_res num  : 41, elapse : 1.483292579650879
+Texte extrait: T1TRE N N0RD C00RD0NNEE5 W65 84 Y B1 404868.35731710.46 B2 404892.01 731706.61 B3 404878.23 731684.19 5URFACE:05a 48ca B4 404856.86731689.09 Rattache au b0rne (6N ALD + 731722.00 731722.00 + 23.97 B2 ...
+Trouvé: B2 X=404892.01 Y=731706.61
+Trouvé: B3 X=404878.23 Y=731684.19
+Trouvé: B1 X=404868.35 Y=731710.46
+Trouvé: B4 X=404856.86 Y=731689.09
+🚀 EXTRACTION FINALE ULTIME pour leve40.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:58:16] ppocr DEBUG: dt_boxes num : 41, elapse : 0.1025533676147461
+[2025/09/25 23:58:16] ppocr DEBUG: cls num  : 41, elapse : 0.052648067474365234
+[2025/09/25 23:58:17] ppocr DEBUG: rec_res num  : 41, elapse : 1.2090504169464111
+   ✅ PaddleOCR: 326 caractères
+   ✅ Tesseract original PSM6: 234 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 376 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 216 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=404868.35, Y=731710.46 (conf: 0.90, explicit_stuck)
+      B2: X=404892.01, Y=731706.61 (conf: 1.00, explicit_normal)
+      B3: X=404878.23, Y=731684.19 (conf: 1.00, explicit_normal)
+      B4: X=404856.86, Y=731689.09 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 52/85] 🔍 leve42.png... [2025/09/25 23:58:20] ppocr DEBUG: dt_boxes num : 28, elapse : 0.2543964385986328
+[2025/09/25 23:58:20] ppocr DEBUG: cls num  : 28, elapse : 0.04066896438598633
+[2025/09/25 23:58:21] ppocr DEBUG: rec_res num  : 28, elapse : 0.8363261222839355
+Texte extrait: Pr0cedure N.... T1TRE N L1VRE F0NC1ER C0DRD0NNEE5 N0RD 102777.25 704647.41 B2402615 704645.56 34029265 704591.26 42779.75 304581.26 5URFACE:96a29ca 704665.00- 1H R2 704565.00 PLAN DE 51TLAT10N ECHELLE...
+🚀 EXTRACTION FINALE ULTIME pour leve42.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:58:22] ppocr DEBUG: dt_boxes num : 28, elapse : 0.15259480476379395
+[2025/09/25 23:58:23] ppocr DEBUG: cls num  : 28, elapse : 0.04012870788574219
+[2025/09/25 23:58:23] ppocr DEBUG: rec_res num  : 28, elapse : 0.8180856704711914
+   ✅ PaddleOCR: 253 caractères
+   ✅ Tesseract original PSM6: 358 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1138 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 280 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 53/85] 🔍 leve46.png... [2025/09/25 23:58:28] ppocr DEBUG: dt_boxes num : 45, elapse : 0.22701287269592285
+[2025/09/25 23:58:28] ppocr DEBUG: cls num  : 45, elapse : 0.08085155487060547
+[2025/09/25 23:58:30] ppocr DEBUG: rec_res num  : 45, elapse : 1.2458064556121826
+Texte extrait: T1TREN C00RD0NNEE5 B8rnes X Y N0RD B1 426629.10 713094.47 5URFACE:02a 94ca B2 426647.88 713092.11 B3 426643.57 713076.35 B4 426624.96 713080.23 713105.00 713105.00 meeees B1 18.93 B2 10.00 14.83 de 3 ...
+Trouvé: B1 X=426629.1 Y=713094.47
+Trouvé: B2 X=426647.88 Y=713092.11
+Trouvé: B3 X=426643.57 Y=713076.35
+Trouvé: B4 X=426624.96 Y=713080.23
+🚀 EXTRACTION FINALE ULTIME pour leve46.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:58:30] ppocr DEBUG: dt_boxes num : 45, elapse : 0.13993239402770996
+[2025/09/25 23:58:30] ppocr DEBUG: cls num  : 45, elapse : 0.06107068061828613
+[2025/09/25 23:58:31] ppocr DEBUG: rec_res num  : 45, elapse : 1.1641886234283447
+   ✅ PaddleOCR: 322 caractères
+   ✅ Tesseract original PSM6: 373 caractères
+   ✅ Tesseract original PSM8: 4 caractères
+   ✅ Tesseract original PSM13: 4 caractères
+   ✅ Tesseract binary PSM6: 1085 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 385 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=426629.10, Y=713094.47 (conf: 1.00, explicit_normal)
+      B2: X=426647.88, Y=713092.11 (conf: 1.00, explicit_normal)
+      B3: X=426643.57, Y=713076.35 (conf: 1.00, explicit_normal)
+      B4: X=426624.96, Y=713080.23 (conf: 1.00, explicit_normal)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 54/85] 🔍 leve47.png... [2025/09/25 23:58:35] ppocr DEBUG: dt_boxes num : 30, elapse : 0.19585156440734863
+[2025/09/25 23:58:35] ppocr DEBUG: cls num  : 30, elapse : 0.03720808029174805
+[2025/09/25 23:58:37] ppocr DEBUG: rec_res num  : 30, elapse : 2.0208017826080322
+Texte extrait: N0RD 5URFACE:03 a44.ca C00rd0nneess X 8.1431233.03704987.05 6.2431232.71704966.79 8.3431216.45704966.2 R.4431216.78704987.63 704997.00 704997.00- Parce11e'u" Parce11e't" Parce11e's R.4 B.1 Parce11e'c"...
+🚀 EXTRACTION FINALE ULTIME pour leve47.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:58:38] ppocr DEBUG: dt_boxes num : 30, elapse : 0.2233748435974121
+[2025/09/25 23:58:38] ppocr DEBUG: cls num  : 30, elapse : 0.04283738136291504
+[2025/09/25 23:58:40] ppocr DEBUG: rec_res num  : 30, elapse : 2.602412700653076
+   ✅ PaddleOCR: 321 caractères
+   ✅ Tesseract original PSM6: 494 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 624 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 501 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 55/85] 🔍 leve48.png... [2025/09/25 23:58:43] ppocr DEBUG: dt_boxes num : 36, elapse : 0.3878636360168457
+[2025/09/25 23:58:43] ppocr DEBUG: cls num  : 36, elapse : 0.062096357345581055
+[2025/09/25 23:58:48] ppocr DEBUG: rec_res num  : 36, elapse : 4.234974145889282
+Texte extrait: C00RD0NNEE5 X Y N0RD B1 433626.44 704655.44 B2 433639.07 704639.13 B3 433625.70 704628.58 5UPERF1C1E:3a 57ca B4 433612.68 704645.32 Leve rattache au 5ysteme 704665.00 704665.00 metres 15.00 KB1 B3 704...
+Trouvé: B1 X=433626.44 Y=704655.44
+Trouvé: B2 X=433639.07 Y=704639.13
+Trouvé: B3 X=433625.7 Y=704628.58
+Trouvé: B4 X=433612.68 Y=704645.32
+🚀 EXTRACTION FINALE ULTIME pour leve48.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:58:48] ppocr DEBUG: dt_boxes num : 36, elapse : 0.22405743598937988
+[2025/09/25 23:58:48] ppocr DEBUG: cls num  : 36, elapse : 0.05135226249694824
+[2025/09/25 23:58:52] ppocr DEBUG: rec_res num  : 36, elapse : 3.55823016166687
+   ✅ PaddleOCR: 292 caractères
+   ✅ Tesseract original PSM6: 216 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1510 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 206 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=433626.44, Y=704655.44 (conf: 1.00, explicit_normal)
+      B2: X=433639.07, Y=704639.13 (conf: 1.00, explicit_normal)
+      B3: X=433625.70, Y=704628.58 (conf: 1.00, explicit_normal)
+      B4: X=433612.68, Y=704645.32 (conf: 1.00, explicit_normal)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 56/85] 🔍 leve49.png... [2025/09/25 23:58:55] ppocr DEBUG: dt_boxes num : 27, elapse : 0.14666533470153809
+[2025/09/25 23:58:55] ppocr DEBUG: cls num  : 27, elapse : 0.04844188690185547
+[2025/09/25 23:58:56] ppocr DEBUG: rec_res num  : 27, elapse : 0.9530320167541504
+Texte extrait: 31 420494.95717367.75 82 420496.53 717342.38 33 420474.38717342.98 5URFACE:05a 38ca 84 420474.18717367.75 717380.00 717380. B4 B1 20.77 24.78 25.42 B3 22.15 B2 17330 LAN DE 51TUAT10N CHELLE 1/600000 Z...
+🚀 EXTRACTION FINALE ULTIME pour leve49.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:58:56] ppocr DEBUG: dt_boxes num : 27, elapse : 0.1153569221496582
+[2025/09/25 23:58:56] ppocr DEBUG: cls num  : 27, elapse : 0.0359346866607666
+[2025/09/25 23:58:57] ppocr DEBUG: rec_res num  : 27, elapse : 0.7963266372680664
+   ✅ PaddleOCR: 229 caractères
+   ✅ Tesseract original PSM6: 222 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 826 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 225 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 57/85] 🔍 leve5.jpeg... [2025/09/25 23:59:02] ppocr DEBUG: dt_boxes num : 53, elapse : 0.3904414176940918
+[2025/09/25 23:59:02] ppocr DEBUG: cls num  : 53, elapse : 0.11585044860839844
+[2025/09/25 23:59:04] ppocr DEBUG: rec_res num  : 53, elapse : 1.5954034328460693
+Texte extrait: Pr0cedure N0.... Registre F0ncier T1TRE N0 C00RD0NNEE5 N0RD B8rnes X Y 5uperficie:05a 01ca B1 416624.41706501.09 B2 416624.20706475.97 B3 416604.32706475.39 B4 416604.32706500.43 706515.00 706515.00 1...
+Trouvé: B1 X=416624.41 Y=706501.09
+Trouvé: B2 X=416624.2 Y=706475.97
+Trouvé: B3 X=416604.32 Y=706475.39
+Trouvé: B4 X=416604.32 Y=706500.43
+🚀 EXTRACTION FINALE ULTIME pour leve5.jpeg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:59:18] ppocr DEBUG: dt_boxes num : 53, elapse : 0.2123410701751709
+[2025/09/25 23:59:18] ppocr DEBUG: cls num  : 53, elapse : 0.06895256042480469
+[2025/09/25 23:59:20] ppocr DEBUG: rec_res num  : 53, elapse : 2.113290309906006
+   ✅ PaddleOCR: 456 caractères
+   ✅ Tesseract original PSM6: 584 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 8905 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 560 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=416624.41, Y=706501.09 (conf: 0.90, explicit_stuck)
+      B2: X=416624.20, Y=706475.97 (conf: 0.90, explicit_stuck)
+      B3: X=416604.32, Y=706475.39 (conf: 0.90, explicit_stuck)
+      B4: X=416604.32, Y=706500.43 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 58/85] 🔍 leve51.png... [2025/09/25 23:59:45] ppocr DEBUG: dt_boxes num : 29, elapse : 0.49326610565185547
+[2025/09/25 23:59:45] ppocr DEBUG: cls num  : 29, elapse : 0.0556950569152832
+[2025/09/25 23:59:47] ppocr DEBUG: rec_res num  : 29, elapse : 2.052231788635254
+Texte extrait: T1TREN N0RD C00rd0nnees 5URFACE:07a 68ca Bnes X Y 6.1435236.78703155.11 B.2435256.73703130.09 6.3435237.90703115.21 B.4435217.95703140.23 -703160.00 + + 703160.00 .. B.2 :.3 703110.00 601 70D PLAN DE ...
+🚀 EXTRACTION FINALE ULTIME pour leve51.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:59:49] ppocr DEBUG: dt_boxes num : 29, elapse : 1.0754241943359375
+[2025/09/25 23:59:49] ppocr DEBUG: cls num  : 29, elapse : 0.0740349292755127
+[2025/09/25 23:59:53] ppocr DEBUG: rec_res num  : 29, elapse : 3.825873613357544
+   ✅ PaddleOCR: 262 caractères
+   ✅ Tesseract original PSM6: 71 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 123 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 65 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 59/85] 🔍 leve52.png... [2025/09/25 23:59:55] ppocr DEBUG: dt_boxes num : 37, elapse : 0.321230411529541
+[2025/09/25 23:59:55] ppocr DEBUG: cls num  : 37, elapse : 0.12472200393676758
+[2025/09/25 23:59:57] ppocr DEBUG: rec_res num  : 37, elapse : 2.3133010864257812
+Texte extrait: T1TRE N0 C00RD0NNEE5 N0RD B1 436296.48703464.99 B2 436311.86703445.28 B3 436295.43703432.21 B4 436280.051703451.92 5URFACE:5a 25ca 703475.00 703475.00 Parce11e "p" Parce11e h" 21.00 0.E Parce11e q J0....
+Trouvé: B1 X=436296.48 Y=703464.99
+Trouvé: B2 X=436311.86 Y=703445.28
+Trouvé: B3 X=436295.43 Y=703432.21
+🚀 EXTRACTION FINALE ULTIME pour leve52.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/25 23:59:58] ppocr DEBUG: dt_boxes num : 37, elapse : 0.13647842407226562
+[2025/09/25 23:59:58] ppocr DEBUG: cls num  : 37, elapse : 0.055948734283447266
+[2025/09/25 23:59:59] ppocr DEBUG: rec_res num  : 37, elapse : 1.0031232833862305
+   ✅ PaddleOCR: 332 caractères
+   ✅ Tesseract original PSM6: 192 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 336 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 208 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 3
+      B1: X=436296.48, Y=703464.99 (conf: 0.90, explicit_stuck)
+      B2: X=436311.86, Y=703445.28 (conf: 0.90, explicit_stuck)
+      B3: X=436295.43, Y=703432.21 (conf: 0.90, explicit_stuck)
+➡️ ⚠️ 3 coords (37.5%) [+0]
+
+[ 60/85] 🔍 leve53.png... [2025/09/26 00:00:01] ppocr DEBUG: dt_boxes num : 35, elapse : 0.22314691543579102
+[2025/09/26 00:00:01] ppocr DEBUG: cls num  : 35, elapse : 0.06157732009887695
+[2025/09/26 00:00:02] ppocr DEBUG: rec_res num  : 35, elapse : 0.9548959732055664
+Texte extrait: T1TRE N C00RD0NNEE5 N0RD 5URFACE:25a 44ca X Y 8.1 392397.14 697747.99 3.2 392404.44 697709.80 8.3 392407.88 697691.82 B.4 392365.26 697682.37 8.5 392360.62 697703.26 8.6 392352.86 697738.17 697790.00 ...
+🚀 EXTRACTION FINALE ULTIME pour leve53.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:03] ppocr DEBUG: dt_boxes num : 35, elapse : 0.11624455451965332
+[2025/09/26 00:00:03] ppocr DEBUG: cls num  : 35, elapse : 0.051851749420166016
+[2025/09/26 00:00:04] ppocr DEBUG: rec_res num  : 35, elapse : 0.9014523029327393
+   ✅ PaddleOCR: 314 caractères
+   ✅ Tesseract original PSM6: 103 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1412 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 103 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 1
+   B1: PaddleOCR_sequence_first (conf: 0.70)
+   Coordonnées déduplicées: 1
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 1
+      B1: X=392352.86, Y=697738.17 (conf: 0.70, sequence)
+🎉 ⚠️ 1 coords (12.5%) [+1]
+
+[ 61/85] 🔍 leve55.png... [2025/09/26 00:00:08] ppocr DEBUG: dt_boxes num : 28, elapse : 0.17995643615722656
+[2025/09/26 00:00:08] ppocr DEBUG: cls num  : 28, elapse : 0.05704784393310547
+[2025/09/26 00:00:09] ppocr DEBUG: rec_res num  : 28, elapse : 0.9499146938323975
+Texte extrait: T1TRE N C00RD0NNEE5 N0RD 698927.00 397385. 10 397384.63.698922.46 698935.00 B4 B1 28.73 19.62 20.50 33.23 B2 B3 Passage 4 metres 698885.00 PLAN DE 51TUAT10N 397430.00 uidan Z0ungb0d D.jegbad.ji ECHELL...
+🚀 EXTRACTION FINALE ULTIME pour leve55.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:10] ppocr DEBUG: dt_boxes num : 28, elapse : 0.12698101997375488
+[2025/09/26 00:00:10] ppocr DEBUG: cls num  : 28, elapse : 0.04726433753967285
+[2025/09/26 00:00:11] ppocr DEBUG: rec_res num  : 28, elapse : 1.0143096446990967
+   ✅ PaddleOCR: 206 caractères
+   ✅ Tesseract original PSM6: 2 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1167 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 5 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 62/85] 🔍 leve56.png... [2025/09/26 00:00:14] ppocr DEBUG: dt_boxes num : 90, elapse : 0.1822190284729004
+[2025/09/26 00:00:14] ppocr DEBUG: cls num  : 90, elapse : 0.11586213111877441
+[2025/09/26 00:00:17] ppocr DEBUG: rec_res num  : 90, elapse : 2.6889891624450684
+Texte extrait: T1TRE N C00RD0NNEE5 W65 84 N0RD X Y B1 408783.78700628.94 408792.21 5UPERF1C1E:25a 00ca B2 700605.17 700610.23 408775.58 408770.46 700565.33 ? 408739.B8 700554.52 408732.72 700586.42 R L 408728.08 700...
+Trouvé: B1 X=408783.78 Y=700628.94
+🚀 EXTRACTION FINALE ULTIME pour leve56.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:17] ppocr DEBUG: dt_boxes num : 90, elapse : 0.12513256072998047
+[2025/09/26 00:00:17] ppocr DEBUG: cls num  : 90, elapse : 0.11766409873962402
+[2025/09/26 00:00:20] ppocr DEBUG: rec_res num  : 90, elapse : 2.4331369400024414
+   ✅ PaddleOCR: 435 caractères
+   ✅ Tesseract original PSM6: 321 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 348 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 335 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 1
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 1
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 1
+      B1: X=408783.78, Y=700628.94 (conf: 0.90, explicit_stuck)
+➡️ ⚠️ 1 coords (12.5%) [+0]
+
+[ 63/85] 🔍 leve58.png... [2025/09/26 00:00:22] ppocr DEBUG: dt_boxes num : 38, elapse : 0.21845364570617676
+[2025/09/26 00:00:22] ppocr DEBUG: cls num  : 38, elapse : 0.07076287269592285
+[2025/09/26 00:00:23] ppocr DEBUG: rec_res num  : 38, elapse : 1.1850149631500244
+Texte extrait: T1TREN C00RD0NNEE5 X N0RD B1 427463.87 714217.03 5URFACE:06a 98ca B2 B3 427465.61 427482.25 714178.46 714201.60 B4 427446.40714194.45 714220.00 714220.00 B1 B2 B4 25.00 50 V0ie 10.00 metres B3 PLAN DE...
+Trouvé: B1 X=427463.87 Y=714217.03
+Trouvé: B4 X=427446.4 Y=714194.45
+🚀 EXTRACTION FINALE ULTIME pour leve58.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:24] ppocr DEBUG: dt_boxes num : 38, elapse : 0.12530922889709473
+[2025/09/26 00:00:24] ppocr DEBUG: cls num  : 38, elapse : 0.05351614952087402
+[2025/09/26 00:00:25] ppocr DEBUG: rec_res num  : 38, elapse : 1.1053407192230225
+   ✅ PaddleOCR: 283 caractères
+   ✅ Tesseract original PSM6: 301 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1422 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 276 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 2
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 2
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B2', 'B3']
+   ✅ B2 inféré: X=427447.64, Y=714201.74
+   ✅ B3 inféré: X=427462.64, Y=714209.74
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=427463.87, Y=714217.03 (conf: 1.00, explicit_normal)
+      B2: X=427447.64, Y=714201.74 (conf: 0.30, geometric)
+      B3: X=427462.64, Y=714209.74 (conf: 0.30, geometric)
+      B4: X=427446.40, Y=714194.45 (conf: 0.90, explicit_stuck)
+🎉 👍 4 coords (50.0%) [+2]
+
+[ 64/85] 🔍 leve61.png... [2025/09/26 00:00:29] ppocr DEBUG: dt_boxes num : 22, elapse : 0.5733141899108887
+[2025/09/26 00:00:29] ppocr DEBUG: cls num  : 22, elapse : 0.04817366600036621
+[2025/09/26 00:00:30] ppocr DEBUG: rec_res num  : 22, elapse : 0.6254396438598633
+Texte extrait: N0RD 1070.64 1068.01 1090 5URFACE:h6364Ca 123.08 1098.19 26 00 812 Vers Quidgh p1age 490.00 R0ute LAN DE 51TUAT10N 06600 C0t0n E 001 001 T1DDE ECHELLE12000 y aan X L : a 1L [0pne0n ner” 0t 1y! =| ° fi...
+🚀 EXTRACTION FINALE ULTIME pour leve61.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:31] ppocr DEBUG: dt_boxes num : 22, elapse : 0.12135624885559082
+[2025/09/26 00:00:31] ppocr DEBUG: cls num  : 22, elapse : 0.034629106521606445
+[2025/09/26 00:00:31] ppocr DEBUG: rec_res num  : 22, elapse : 0.6705708503723145
+   ✅ PaddleOCR: 155 caractères
+   ✅ Tesseract original PSM6: 226 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 522 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 226 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 65/85] 🔍 leve63.png... [2025/09/26 00:00:33] ppocr DEBUG: dt_boxes num : 68, elapse : 0.13791489601135254
+[2025/09/26 00:00:33] ppocr DEBUG: cls num  : 68, elapse : 0.0956423282623291
+[2025/09/26 00:00:35] ppocr DEBUG: rec_res num  : 68, elapse : 1.9511995315551758
+Texte extrait: C00RD0NNEE5 N0RD Bnes X Y 5URFACE:38a 06ca B1409503.01712697.62 B2 409498.96712628.63 B3 409496.54712599.08 409495.17712591.57 B5 409459.27712588.81 B6 409469.83712635.26 409420.00 409520.00 B7 409431...
+Trouvé: B1 X=409503.01 Y=712697.62
+Trouvé: B10 X=409467.37 Y=712695.98
+Trouvé: B7 X=409431.39 Y=712643.7
+Trouvé: B2 X=409498.96 Y=712628.63
+Trouvé: B3 X=409496.54 Y=712599.08
+Trouvé: B5 X=409459.27 Y=712588.81
+Trouvé: B6 X=409469.83 Y=712635.26
+Trouvé: B8 X=409475.55 Y=712656.81
+🚀 EXTRACTION FINALE ULTIME pour leve63.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:35] ppocr DEBUG: dt_boxes num : 68, elapse : 0.1266326904296875
+[2025/09/26 00:00:36] ppocr DEBUG: cls num  : 68, elapse : 0.08685731887817383
+[2025/09/26 00:00:37] ppocr DEBUG: rec_res num  : 68, elapse : 1.825425386428833
+   ✅ PaddleOCR: 533 caractères
+   ✅ Tesseract original PSM6: 288 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 431 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 304 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 9
+   B7: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B5: PaddleOCR_explicit_stuck (conf: 0.90)
+   B6: PaddleOCR_explicit_stuck (conf: 0.90)
+   B8: PaddleOCR_explicit_stuck (conf: 0.90)
+   B10: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 8
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B4', 'B9']
+   ✅ B4 inféré: X=409497.74, Y=712655.24
+   ✅ B9 inféré: X=409572.74, Y=712695.24
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 10
+      B1: X=409503.01, Y=712697.62 (conf: 0.90, explicit_stuck)
+      B2: X=409498.96, Y=712628.63 (conf: 0.90, explicit_stuck)
+      B3: X=409496.54, Y=712599.08 (conf: 0.90, explicit_stuck)
+      B4: X=409497.74, Y=712655.24 (conf: 0.30, geometric)
+      B5: X=409459.27, Y=712588.81 (conf: 0.90, explicit_stuck)
+      B6: X=409469.83, Y=712635.26 (conf: 0.90, explicit_stuck)
+      B7: X=409431.39, Y=712643.70 (conf: 1.00, explicit_normal)
+      B8: X=409475.55, Y=712656.81 (conf: 0.90, explicit_stuck)
+      B9: X=409572.74, Y=712695.24 (conf: 0.30, geometric)
+      B10: X=409467.37, Y=712695.98 (conf: 0.90, explicit_stuck)
+🎉 🏆 10 coords (125.0%) [+2]
+
+[ 66/85] 🔍 leve65.png... [2025/09/26 00:00:39] ppocr DEBUG: dt_boxes num : 55, elapse : 0.22555017471313477
+[2025/09/26 00:00:39] ppocr DEBUG: cls num  : 55, elapse : 0.0857079029083252
+[2025/09/26 00:00:41] ppocr DEBUG: rec_res num  : 55, elapse : 1.8089697360992432
+Texte extrait: T1TRE N Bnes X Y B1402756.32707531.46 N0RD B2402806.66 707519.07 B3402802.68 707503.32 5URFACEA:04a 40ca B4402752.59 707515.24 5URFACE B:04a 43ca T0TALE:08a83ca 707891.00 707891.00 B1 200 25.70 16.65 ...
+Trouvé: B1 X=402756.32 Y=707531.46
+Trouvé: B2 X=402806.66 Y=707519.07
+Trouvé: B3 X=402802.68 Y=707503.32
+Trouvé: B4 X=402752.59 Y=707515.24
+🚀 EXTRACTION FINALE ULTIME pour leve65.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:42] ppocr DEBUG: dt_boxes num : 55, elapse : 0.15212130546569824
+[2025/09/26 00:00:42] ppocr DEBUG: cls num  : 55, elapse : 0.07248759269714355
+[2025/09/26 00:00:44] ppocr DEBUG: rec_res num  : 55, elapse : 1.8598182201385498
+   ✅ PaddleOCR: 435 caractères
+   ✅ Tesseract original PSM6: 463 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1043 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 445 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=402756.32, Y=707531.46 (conf: 0.90, explicit_stuck)
+      B2: X=402806.66, Y=707519.07 (conf: 1.00, explicit_normal)
+      B3: X=402802.68, Y=707503.32 (conf: 1.00, explicit_normal)
+      B4: X=402752.59, Y=707515.24 (conf: 1.00, explicit_normal)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 67/85] 🔍 leve66.png... [2025/09/26 00:00:46] ppocr DEBUG: dt_boxes num : 25, elapse : 0.21191906929016113
+[2025/09/26 00:00:46] ppocr DEBUG: cls num  : 25, elapse : 0.0376894474029541
+[2025/09/26 00:00:47] ppocr DEBUG: rec_res num  : 25, elapse : 1.0045256614685059
+Texte extrait: T1TRE N C00RD0NNEE5 N0RD Bns X Y B1454172.06705936.99 B2 454186.00705935.00 B3 454181.94705903.56 5URFACE03 88ca B4454170.22705909.77 705946.00 705946.00 B1 14.08 B3 705896.00 705896.00 PLAN DE 51TUAT...
+Trouvé: B1 X=454172.06 Y=705936.99
+Trouvé: B4 X=454170.22 Y=705909.77
+Trouvé: B2 X=454186.0 Y=705935.0
+Trouvé: B3 X=454181.94 Y=705903.56
+🚀 EXTRACTION FINALE ULTIME pour leve66.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:48] ppocr DEBUG: dt_boxes num : 25, elapse : 0.3154327869415283
+[2025/09/26 00:00:48] ppocr DEBUG: cls num  : 25, elapse : 0.05313467979431152
+[2025/09/26 00:00:49] ppocr DEBUG: rec_res num  : 25, elapse : 0.979534387588501
+   ✅ PaddleOCR: 247 caractères
+   ✅ Tesseract original PSM6: 349 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 347 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 368 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=454172.06, Y=705936.99 (conf: 0.90, explicit_stuck)
+      B2: X=454186.00, Y=705935.00 (conf: 0.90, explicit_stuck)
+      B3: X=454181.94, Y=705903.56 (conf: 0.90, explicit_stuck)
+      B4: X=454170.22, Y=705909.77 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 68/85] 🔍 leve67.png... [2025/09/26 00:00:51] ppocr DEBUG: dt_boxes num : 35, elapse : 0.21346306800842285
+[2025/09/26 00:00:51] ppocr DEBUG: cls num  : 35, elapse : 0.06737828254699707
+[2025/09/26 00:00:52] ppocr DEBUG: rec_res num  : 35, elapse : 1.0271742343902588
+Texte extrait: T1TREN-.- C00rd0nnees:w6s 84 N0RD Bnes X Y 5URFACE:4a 94ca B1 434008.32 703153.70 B2 434023.65 703134.00 B3 434007.98 703121.81 B4 433992.75703141.56 703165.00 703165.00- B1 19.74 9. 703115.00 703115....
+Trouvé: B1 X=434008.32 Y=703153.7
+Trouvé: B2 X=434023.65 Y=703134.0
+Trouvé: B3 X=434007.98 Y=703121.81
+Trouvé: B4 X=433992.75 Y=703141.56
+🚀 EXTRACTION FINALE ULTIME pour leve67.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:53] ppocr DEBUG: dt_boxes num : 35, elapse : 0.12413763999938965
+[2025/09/26 00:00:53] ppocr DEBUG: cls num  : 35, elapse : 0.047647953033447266
+[2025/09/26 00:00:54] ppocr DEBUG: rec_res num  : 35, elapse : 0.9760246276855469
+   ✅ PaddleOCR: 297 caractères
+   ✅ Tesseract original PSM6: 325 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1096 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 330 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=434008.32, Y=703153.70 (conf: 1.00, explicit_normal)
+      B2: X=434023.65, Y=703134.00 (conf: 1.00, explicit_normal)
+      B3: X=434007.98, Y=703121.81 (conf: 1.00, explicit_normal)
+      B4: X=433992.75, Y=703141.56 (conf: 0.90, explicit_stuck)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 69/85] 🔍 leve68.png... [2025/09/26 00:00:57] ppocr DEBUG: dt_boxes num : 40, elapse : 0.1176762580871582
+[2025/09/26 00:00:57] ppocr DEBUG: cls num  : 40, elapse : 0.07489562034606934
+[2025/09/26 00:00:58] ppocr DEBUG: rec_res num  : 40, elapse : 1.0819027423858643
+Texte extrait: T1TRE N0RD C00RD0NNEE5 B8rnes X Y 433215.94 703 105.04 5UPERF1C1E05a 22ca 81 B2 433230.56 703087.67 B3 43321296 703 072.86 B4 433 1983470309023 703115.00 X de B2 Fyits WC de 8.00 r 196 B3 Rue N 703065...
+Trouvé: B2 X=433230.56 Y=703087.67
+🚀 EXTRACTION FINALE ULTIME pour leve68.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:00:58] ppocr DEBUG: dt_boxes num : 40, elapse : 0.13235902786254883
+[2025/09/26 00:00:58] ppocr DEBUG: cls num  : 40, elapse : 0.062468767166137695
+[2025/09/26 00:01:00] ppocr DEBUG: rec_res num  : 40, elapse : 1.1489918231964111
+   ✅ PaddleOCR: 303 caractères
+   ✅ Tesseract original PSM6: 360 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 688 caractères
+   ✅ Tesseract binary PSM8: 4 caractères
+   ✅ Tesseract binary PSM13: 4 caractères
+   ✅ Tesseract otsu PSM6: 352 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 1
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 1
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 1
+      B2: X=433230.56, Y=703087.67 (conf: 1.00, explicit_normal)
+➡️ ⚠️ 1 coords (12.5%) [+0]
+
+[ 70/85] 🔍 leve69.png... [2025/09/26 00:01:03] ppocr DEBUG: dt_boxes num : 52, elapse : 0.12305569648742676
+[2025/09/26 00:01:03] ppocr DEBUG: cls num  : 52, elapse : 0.06830263137817383
+[2025/09/26 00:01:04] ppocr DEBUG: rec_res num  : 52, elapse : 1.471010446548462
+Texte extrait: T1TRE N0. N0RD C00RD0NNEE5 Bernes X A 5UPERF1C1E:08a 69ca B1 435238.61 705291.83 B2 435253.85 705272.00 B3 435269.10 705252.18 B4 435 255.44 705241.45 B5 435240.20 705 261.27 435 270.00 B6 435224.95 7...
+Trouvé: B1 X=435238.61 Y=705291.83
+Trouvé: B2 X=435253.85 Y=705272.0
+Trouvé: B3 X=435269.1 Y=705252.18
+🚀 EXTRACTION FINALE ULTIME pour leve69.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:01:05] ppocr DEBUG: dt_boxes num : 52, elapse : 0.12127113342285156
+[2025/09/26 00:01:05] ppocr DEBUG: cls num  : 52, elapse : 0.06726670265197754
+[2025/09/26 00:01:07] ppocr DEBUG: rec_res num  : 52, elapse : 1.4243683815002441
+   ✅ PaddleOCR: 377 caractères
+   ✅ Tesseract original PSM6: 313 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 609 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 303 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 3
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 3
+      B1: X=435238.61, Y=705291.83 (conf: 1.00, explicit_normal)
+      B2: X=435253.85, Y=705272.00 (conf: 1.00, explicit_normal)
+      B3: X=435269.10, Y=705252.18 (conf: 1.00, explicit_normal)
+➡️ ⚠️ 3 coords (37.5%) [+0]
+
+[ 71/85] 🔍 leve7.png... [2025/09/26 00:01:09] ppocr DEBUG: dt_boxes num : 61, elapse : 0.2324821949005127
+[2025/09/26 00:01:09] ppocr DEBUG: cls num  : 61, elapse : 0.09845590591430664
+[2025/09/26 00:01:11] ppocr DEBUG: rec_res num  : 61, elapse : 2.0861244201660156
+Texte extrait: Pr0cedure n_ RE615TRE F0NC1ER T1TRE N C00RD0NNEE5 N0RD Bnes X A 5URFACE:03a 04ca B1 429000.43 706628.00 B2 429012.64 706627.00 B3 429010.01 706602.41 B4 428997.74 706603.37 428995.00 429045.00 Axe _V0...
+Trouvé: B1 X=429000.43 Y=706628.0
+Trouvé: B2 X=429012.64 Y=706627.0
+Trouvé: B3 X=429010.01 Y=706602.41
+Trouvé: B4 X=428997.74 Y=706603.37
+🚀 EXTRACTION FINALE ULTIME pour leve7.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:01:12] ppocr DEBUG: dt_boxes num : 61, elapse : 0.14800167083740234
+[2025/09/26 00:01:12] ppocr DEBUG: cls num  : 61, elapse : 0.08674001693725586
+[2025/09/26 00:01:14] ppocr DEBUG: rec_res num  : 61, elapse : 2.1520845890045166
+   ✅ PaddleOCR: 492 caractères
+   ✅ Tesseract original PSM6: 407 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1374 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 407 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 5
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=429000.43, Y=706628.00 (conf: 1.00, explicit_normal)
+      B2: X=429012.64, Y=706627.00 (conf: 1.00, explicit_normal)
+      B3: X=429010.01, Y=706602.41 (conf: 1.00, explicit_normal)
+      B4: X=428997.74, Y=706603.37 (conf: 1.00, explicit_normal)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 72/85] 🔍 leve71.jpeg... [2025/09/26 00:01:18] ppocr DEBUG: dt_boxes num : 33, elapse : 0.43715834617614746
+[2025/09/26 00:01:18] ppocr DEBUG: cls num  : 33, elapse : 0.07306575775146484
+[2025/09/26 00:01:19] ppocr DEBUG: rec_res num  : 33, elapse : 1.23604416847229
+Texte extrait: T1TRE N C00RD0NNEE5 5URFACE05a 12ca X Y 428222.49717438.46 82428223.86717415.25 83428201.89 717413.96 84428200.53717437.18 717443.00 717443.00- B4 B1 22.00 12 Metres 23.25 23.25 V0ie B3 22.00 B2 V0ie ...
+🚀 EXTRACTION FINALE ULTIME pour leve71.jpeg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:01:20] ppocr DEBUG: dt_boxes num : 33, elapse : 0.2041797637939453
+[2025/09/26 00:01:20] ppocr DEBUG: cls num  : 33, elapse : 0.05505704879760742
+[2025/09/26 00:01:21] ppocr DEBUG: rec_res num  : 33, elapse : 1.164853811264038
+   ✅ PaddleOCR: 292 caractères
+   ✅ Tesseract original PSM6: 299 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1468 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 288 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 73/85] 🔍 leve76.png... [2025/09/26 00:01:26] ppocr DEBUG: dt_boxes num : 68, elapse : 0.25069284439086914
+[2025/09/26 00:01:27] ppocr DEBUG: cls num  : 68, elapse : 0.1192178726196289
+[2025/09/26 00:01:29] ppocr DEBUG: rec_res num  : 68, elapse : 2.025862216949463
+Texte extrait: T1TRE N C00RD0NNEE5 N0RD 5URFACE : 01hn 08a 13cn B8rnes X Y B.1 396805.11 724810.22 B.2 396852.24 724806.27 B.3 396913.08 724804.47 B.4 396903.63 724770.74 B.5 396884.90 724710.21 B.6 396877.03 724697...
+Trouvé: B10 X=396780.69 Y=724763.21
+Trouvé: B11 X=396790.76 Y=724780.56
+🚀 EXTRACTION FINALE ULTIME pour leve76.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:01:30] ppocr DEBUG: dt_boxes num : 68, elapse : 0.14270973205566406
+[2025/09/26 00:01:30] ppocr DEBUG: cls num  : 68, elapse : 0.08913540840148926
+[2025/09/26 00:01:31] ppocr DEBUG: rec_res num  : 68, elapse : 1.792180061340332
+   ✅ PaddleOCR: 507 caractères
+   ✅ Tesseract original PSM6: 644 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 708 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 630 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+⚠️ ⚠️ 0 coords (0.0%) [+-2]
+
+[ 74/85] 🔍 leve80.png... [2025/09/26 00:01:36] ppocr DEBUG: dt_boxes num : 39, elapse : 0.19962072372436523
+[2025/09/26 00:01:36] ppocr DEBUG: cls num  : 39, elapse : 0.05565214157104492
+[2025/09/26 00:01:37] ppocr DEBUG: rec_res num  : 39, elapse : 1.1231236457824707
+Texte extrait: T1TREN...... N0RD C00RD0NNEE5 X Y 5URFACE :03a 50ca B1 419171.34 703354.15 B2 419170.66 703329.15 B3 419156.66 703329.00 B4419157.34 703354.00 703370.00 703370.00 V0ie de 12.00 metres B4 14.00 B1 25.0...
+Trouvé: B1 X=419171.34 Y=703354.15
+Trouvé: B2 X=419170.66 Y=703329.15
+Trouvé: B3 X=419156.66 Y=703329.0
+Trouvé: B4 X=419157.34 Y=703354.0
+🚀 EXTRACTION FINALE ULTIME pour leve80.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:01:37] ppocr DEBUG: dt_boxes num : 39, elapse : 0.11815285682678223
+[2025/09/26 00:01:37] ppocr DEBUG: cls num  : 39, elapse : 0.051987648010253906
+[2025/09/26 00:01:38] ppocr DEBUG: rec_res num  : 39, elapse : 1.0401239395141602
+   ✅ PaddleOCR: 309 caractères
+   ✅ Tesseract original PSM6: 384 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 631 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 386 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=419171.34, Y=703354.15 (conf: 1.00, explicit_normal)
+      B2: X=419170.66, Y=703329.15 (conf: 1.00, explicit_normal)
+      B3: X=419156.66, Y=703329.00 (conf: 1.00, explicit_normal)
+      B4: X=419157.34, Y=703354.00 (conf: 1.00, explicit_normal)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 75/85] 🔍 leve83.png... [2025/09/26 00:01:42] ppocr DEBUG: dt_boxes num : 30, elapse : 0.13889169692993164
+[2025/09/26 00:01:42] ppocr DEBUG: cls num  : 30, elapse : 0.03965568542480469
+[2025/09/26 00:01:44] ppocr DEBUG: rec_res num  : 30, elapse : 1.6030888557434082
+Texte extrait: T1TRE C00RD0NNEE5 N0RD ne X 429720.00725718.0Q 5URFACE59a 34ca 429751:80726700.71 429729.95 725660.94 420676.88 725562.03 B5 429643.33 725574.63 B6 429694.85725080.03 725690.00 725600.00 725590.00 725...
+Trouvé: B5 X=429643.33 Y=725574.63
+Trouvé: B6 X=429694.85 Y=725080.03
+🚀 EXTRACTION FINALE ULTIME pour leve83.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:01:53] ppocr DEBUG: dt_boxes num : 30, elapse : 0.23237919807434082
+[2025/09/26 00:01:53] ppocr DEBUG: cls num  : 30, elapse : 0.04271554946899414
+[2025/09/26 00:01:55] ppocr DEBUG: rec_res num  : 30, elapse : 2.06050181388855
+   ✅ PaddleOCR: 257 caractères
+   ✅ Tesseract original PSM6: 1358 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 9077 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 1034 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 2
+   B5: PaddleOCR_explicit_normal (conf: 1.00)
+   B6: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 2
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B1', 'B2', 'B3', 'B4']
+   ✅ B1 inféré: X=429704.85, Y=725584.63
+   ✅ B2 inféré: X=429661.59, Y=725323.33
+   ✅ B3 inféré: X=429676.59, Y=725331.33
+   ✅ B4 inféré: X=429691.59, Y=725339.33
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 6
+      B1: X=429704.85, Y=725584.63 (conf: 0.30, geometric)
+      B2: X=429661.59, Y=725323.33 (conf: 0.30, geometric)
+      B3: X=429676.59, Y=725331.33 (conf: 0.30, geometric)
+      B4: X=429691.59, Y=725339.33 (conf: 0.30, geometric)
+      B5: X=429643.33, Y=725574.63 (conf: 1.00, explicit_normal)
+      B6: X=429694.85, Y=725080.03 (conf: 0.90, explicit_stuck)
+🎉 ✅ 6 coords (75.0%) [+4]
+
+[ 76/85] 🔍 leve84.jpg... [2025/09/26 00:02:15] ppocr DEBUG: dt_boxes num : 73, elapse : 0.40215349197387695
+[2025/09/26 00:02:15] ppocr DEBUG: cls num  : 73, elapse : 0.16745948791503906
+[2025/09/26 00:02:20] ppocr DEBUG: rec_res num  : 73, elapse : 4.438216209411621
+Texte extrait: N0RD X Y B1 458647.97 706280.37 B2 458820.23 705312.25 18 458699.14 705331.98 458536.57 705358.43 B5 458384.15 705365.97 B6 458284.34 705367.38 B7 458178.50 705418.56 B8 458229.00 705627.47 B9 458279....
+Trouvé: B1 X=458647.97 Y=706280.37
+Trouvé: B2 X=458820.23 Y=705312.25
+Trouvé: B5 X=458384.15 Y=705365.97
+Trouvé: B6 X=458284.34 Y=705367.38
+Trouvé: B7 X=458178.5 Y=705418.56
+Trouvé: B8 X=458229.0 Y=705627.47
+Trouvé: B9 X=458279.59 Y=705836.4
+Trouvé: B10 X=458329.94 Y=706045.48
+Trouvé: B11 X=458380.49 Y=706254.5
+Trouvé: B12 X=458534.18 Y=706269.45
+Trouvé: B3 X=456699.14 Y=705331.98
+🚀 EXTRACTION FINALE ULTIME pour leve84.jpg
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:02:21] ppocr DEBUG: dt_boxes num : 73, elapse : 0.20684361457824707
+[2025/09/26 00:02:21] ppocr DEBUG: cls num  : 73, elapse : 0.10747456550598145
+[2025/09/26 00:02:26] ppocr DEBUG: rec_res num  : 73, elapse : 4.6374876499176025
+   ✅ PaddleOCR: 551 caractères
+   ✅ Tesseract original PSM6: 828 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1546 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 822 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 12
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B5: PaddleOCR_explicit_normal (conf: 1.00)
+   B6: PaddleOCR_explicit_normal (conf: 1.00)
+   B7: PaddleOCR_explicit_normal (conf: 1.00)
+   B8: PaddleOCR_explicit_normal (conf: 1.00)
+   B9: PaddleOCR_explicit_normal (conf: 1.00)
+   B10: PaddleOCR_explicit_normal (conf: 1.00)
+   B11: PaddleOCR_explicit_normal (conf: 1.00)
+   B12: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 10
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B3', 'B4']
+   ✅ B3 inféré: X=458414.34, Y=705781.78
+   ✅ B4 inféré: X=458429.34, Y=705789.78
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 12
+      B1: X=458647.97, Y=706280.37 (conf: 1.00, explicit_normal)
+      B2: X=458820.23, Y=705312.25 (conf: 1.00, explicit_normal)
+      B3: X=458414.34, Y=705781.78 (conf: 0.30, geometric)
+      B4: X=458429.34, Y=705789.78 (conf: 0.30, geometric)
+      B5: X=458384.15, Y=705365.97 (conf: 1.00, explicit_normal)
+      B6: X=458284.34, Y=705367.38 (conf: 1.00, explicit_normal)
+      B7: X=458178.50, Y=705418.56 (conf: 1.00, explicit_normal)
+      B8: X=458229.00, Y=705627.47 (conf: 1.00, explicit_normal)
+      B9: X=458279.59, Y=705836.40 (conf: 1.00, explicit_normal)
+      B10: X=458329.94, Y=706045.48 (conf: 1.00, explicit_normal)
+      B11: X=458380.49, Y=706254.50 (conf: 1.00, explicit_normal)
+      B12: X=458534.18, Y=706269.45 (conf: 1.00, explicit_normal)
+🎉 🏆 12 coords (150.0%) [+1]
+
+[ 77/85] 🔍 leve86.png... [2025/09/26 00:02:33] ppocr DEBUG: dt_boxes num : 66, elapse : 0.2885255813598633
+[2025/09/26 00:02:34] ppocr DEBUG: cls num  : 66, elapse : 0.13317275047302246
+[2025/09/26 00:02:37] ppocr DEBUG: rec_res num  : 66, elapse : 3.2268800735473633
+Texte extrait: T1TRE N C00RD0NNEE5 UTM 31-NW65 841TRF 2005 N0RD Bnes X Y B1 404824.09 739340.37 B2 404360.49 739325.41 5urface:59a 79ca B3 404848.21 739296.50 R4 739283.60 B5 404348.94 739249.95 B6 404826.38 739230....
+Trouvé: B1 X=404824.09 Y=739340.37
+Trouvé: B2 X=404360.49 Y=739325.41
+Trouvé: B3 X=404848.21 Y=739296.5
+Trouvé: B5 X=404348.94 Y=739249.95
+Trouvé: B6 X=404826.38 Y=739230.02
+Trouvé: B8 X=404291.62 Y=739204.56
+Trouvé: B10 X=404805.11 Y=739237.28
+Trouvé: B11 X=404284.29 Y=739245.79
+Trouvé: B12 X=404294.06 Y=739267.74
+Trouvé: B19 X=404312.14 Y=739306.31
+🚀 EXTRACTION FINALE ULTIME pour leve86.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:02:39] ppocr DEBUG: dt_boxes num : 66, elapse : 0.44164061546325684
+[2025/09/26 00:02:39] ppocr DEBUG: cls num  : 66, elapse : 0.10474467277526855
+[2025/09/26 00:02:44] ppocr DEBUG: rec_res num  : 66, elapse : 5.298280477523804
+   ✅ PaddleOCR: 498 caractères
+   ✅ Tesseract original PSM6: 748 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 1505 caractères
+   ✅ Tesseract otsu PSM6: 752 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 12
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B5: PaddleOCR_explicit_normal (conf: 1.00)
+   B6: PaddleOCR_explicit_normal (conf: 1.00)
+   B8: PaddleOCR_explicit_normal (conf: 1.00)
+   B10: PaddleOCR_explicit_normal (conf: 1.00)
+   B11: PaddleOCR_explicit_normal (conf: 1.00)
+   B12: PaddleOCR_explicit_normal (conf: 1.00)
+   B19: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 10
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B4', 'B7', 'B9', 'B13', 'B14', 'B15', 'B16', 'B17', 'B18']
+   ✅ B4 inféré: X=404542.03, Y=739282.39
+   ✅ B7 inféré: X=404587.03, Y=739306.39
+   ✅ B9 inféré: X=404617.03, Y=739322.39
+   ✅ B13 inféré: X=404677.03, Y=739354.39
+   ✅ B14 inféré: X=404692.03, Y=739362.39
+   ✅ B15 inféré: X=404707.03, Y=739370.39
+   ✅ B16 inféré: X=404722.03, Y=739378.39
+   ✅ B17 inféré: X=404737.03, Y=739386.39
+   ✅ B18 inféré: X=404752.03, Y=739394.39
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 19
+      B1: X=404824.09, Y=739340.37 (conf: 1.00, explicit_normal)
+      B2: X=404360.49, Y=739325.41 (conf: 1.00, explicit_normal)
+      B3: X=404848.21, Y=739296.50 (conf: 1.00, explicit_normal)
+      B4: X=404542.03, Y=739282.39 (conf: 0.30, geometric)
+      B5: X=404348.94, Y=739249.95 (conf: 1.00, explicit_normal)
+      B6: X=404826.38, Y=739230.02 (conf: 1.00, explicit_normal)
+      B7: X=404587.03, Y=739306.39 (conf: 0.30, geometric)
+      B8: X=404291.62, Y=739204.56 (conf: 1.00, explicit_normal)
+      B9: X=404617.03, Y=739322.39 (conf: 0.30, geometric)
+      B10: X=404805.11, Y=739237.28 (conf: 1.00, explicit_normal)
+      B11: X=404284.29, Y=739245.79 (conf: 1.00, explicit_normal)
+      B12: X=404294.06, Y=739267.74 (conf: 1.00, explicit_normal)
+      B13: X=404677.03, Y=739354.39 (conf: 0.30, geometric)
+      B14: X=404692.03, Y=739362.39 (conf: 0.30, geometric)
+      B15: X=404707.03, Y=739370.39 (conf: 0.30, geometric)
+      B16: X=404722.03, Y=739378.39 (conf: 0.30, geometric)
+      B17: X=404737.03, Y=739386.39 (conf: 0.30, geometric)
+      B18: X=404752.03, Y=739394.39 (conf: 0.30, geometric)
+      B19: X=404312.14, Y=739306.31 (conf: 1.00, explicit_normal)
+🎉 🏆 19 coords (237.5%) [+9]
+
+[ 78/85] 🔍 leve87.png... [2025/09/26 00:02:49] ppocr DEBUG: dt_boxes num : 47, elapse : 0.2938392162322998
+[2025/09/26 00:02:49] ppocr DEBUG: cls num  : 47, elapse : 0.10584592819213867
+[2025/09/26 00:02:52] ppocr DEBUG: rec_res num  : 47, elapse : 2.7615737915039062
+Texte extrait: T1TRE N838 C00RD0NNEE5 N0RD Y B1 435768.14 702268.57 5URFACE:13a 89ca B2 B3 435769.99 702226.62 702231.07 B4 435728.01 435726.25 702254.57 702286.00 + 702286.00 metres 10.00 de V0ie B1 44.17 V0ie 37.5...
+Trouvé: B1 X=435768.14 Y=702268.57
+Trouvé: B3 X=435769.99 Y=702226.62
+🚀 EXTRACTION FINALE ULTIME pour leve87.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:02:53] ppocr DEBUG: dt_boxes num : 47, elapse : 0.15107083320617676
+[2025/09/26 00:02:53] ppocr DEBUG: cls num  : 47, elapse : 0.07002091407775879
+[2025/09/26 00:02:56] ppocr DEBUG: rec_res num  : 47, elapse : 2.2361881732940674
+   ✅ PaddleOCR: 312 caractères
+   ✅ Tesseract original PSM6: 262 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 1125 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 253 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 2
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 2
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B2']
+   ✅ B2 inféré: X=435761.57, Y=702243.59
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 3
+      B1: X=435768.14, Y=702268.57 (conf: 1.00, explicit_normal)
+      B2: X=435761.57, Y=702243.59 (conf: 0.30, geometric)
+      B3: X=435769.99, Y=702226.62 (conf: 1.00, explicit_normal)
+🎉 ⚠️ 3 coords (37.5%) [+1]
+
+[ 79/85] 🔍 leve89.png... [2025/09/26 00:02:59] ppocr DEBUG: dt_boxes num : 40, elapse : 0.30092597007751465
+[2025/09/26 00:02:59] ppocr DEBUG: cls num  : 40, elapse : 0.10237383842468262
+[2025/09/26 00:03:01] ppocr DEBUG: rec_res num  : 40, elapse : 1.949678897857666
+Texte extrait: T1TRE N C00RD0NNEE5 X N0RD Y 81 81 447463.51703783.85 81 447438.93 447463.84 703763.78 81 447438.59703783.83 703763.81 5URFACE:04a 99ca 703800.00 + + 703800.00 /0ie de 10 metres 24.91 703750.00 + 7037...
+🚀 EXTRACTION FINALE ULTIME pour leve89.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:03:02] ppocr DEBUG: dt_boxes num : 40, elapse : 0.1926112174987793
+[2025/09/26 00:03:02] ppocr DEBUG: cls num  : 40, elapse : 0.06335830688476562
+[2025/09/26 00:03:03] ppocr DEBUG: rec_res num  : 40, elapse : 1.3498611450195312
+   ✅ PaddleOCR: 301 caractères
+   ✅ Tesseract original PSM6: 174 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 248 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 151 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 0
+   Coordonnées déduplicées: 0
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 0
+➡️ ⚠️ 0 coords (0.0%) [+0]
+
+[ 80/85] 🔍 leve9.png... [2025/09/26 00:03:06] ppocr DEBUG: dt_boxes num : 46, elapse : 0.2765958309173584
+[2025/09/26 00:03:06] ppocr DEBUG: cls num  : 46, elapse : 0.05595588684082031
+[2025/09/26 00:03:07] ppocr DEBUG: rec_res num  : 46, elapse : 1.3206686973571777
+Texte extrait: 0VE5 6MEN1 DUNALE T1Tre n3504 RE615TRE F0NC1ER de 66 C00RD0NNEE5 W65 84 N0RD B8rnes X V B1 448005.15 703480.27 5URFACE:04a 31ca B2 448034.38 B3 448034.23 703465.29 B4448005.21 703465.61 703498 Par0e11...
+Trouvé: B1 X=448005.15 Y=703480.27
+Trouvé: B3 X=448034.23 Y=703465.29
+Trouvé: B4 X=448005.21 Y=703465.61
+🚀 EXTRACTION FINALE ULTIME pour leve9.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:03:07] ppocr DEBUG: dt_boxes num : 46, elapse : 0.10850739479064941
+[2025/09/26 00:03:07] ppocr DEBUG: cls num  : 46, elapse : 0.0599360466003418
+[2025/09/26 00:03:09] ppocr DEBUG: rec_res num  : 46, elapse : 1.228485107421875
+   ✅ PaddleOCR: 359 caractères
+   ✅ Tesseract original PSM6: 257 caractères
+   ✅ Tesseract binary PSM6: 380 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 233 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 3
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 3
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B2']
+   ✅ B2 inféré: X=448007.36, Y=703466.39
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=448005.15, Y=703480.27 (conf: 1.00, explicit_normal)
+      B2: X=448007.36, Y=703466.39 (conf: 0.30, geometric)
+      B3: X=448034.23, Y=703465.29 (conf: 1.00, explicit_normal)
+      B4: X=448005.21, Y=703465.61 (conf: 1.00, explicit_normal)
+🎉 👍 4 coords (50.0%) [+1]
+
+[ 81/85] 🔍 leve91.png... [2025/09/26 00:03:10] ppocr DEBUG: dt_boxes num : 53, elapse : 0.18812060356140137
+[2025/09/26 00:03:10] ppocr DEBUG: cls num  : 53, elapse : 0.09901857376098633
+[2025/09/26 00:03:16] ppocr DEBUG: rec_res num  : 53, elapse : 5.548447370529175
+Texte extrait: T1TRE N ..... C00RD0NNEE5 V0ie bitumee 5URFACE (j)03a 24ca TERRE CENTRAL 5URFACE ()03a 16ca V PLE1N B1428733.57706258.12 5URFACE (+v) :06a 40ca B2428746.40706257.84 428747.00706233.41 428746.57 706231...
+Trouvé: B1 X=428733.57 Y=706258.12
+Trouvé: B2 X=428746.4 Y=706257.84
+Trouvé: B6 X=428733.61 Y=706209.55
+Trouvé: B7 X=428733.8 Y=706232.74
+🚀 EXTRACTION FINALE ULTIME pour leve91.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:03:17] ppocr DEBUG: dt_boxes num : 53, elapse : 0.2552053928375244
+[2025/09/26 00:03:17] ppocr DEBUG: cls num  : 53, elapse : 0.13848233222961426
+[2025/09/26 00:03:29] ppocr DEBUG: rec_res num  : 53, elapse : 11.668006181716919
+   ✅ PaddleOCR: 509 caractères
+   ✅ Tesseract original PSM6: 106 caractères
+   ✅ Tesseract original PSM8: 4 caractères
+   ✅ Tesseract original PSM13: 4 caractères
+   ✅ Tesseract binary PSM6: 646 caractères
+   ✅ Tesseract binary PSM8: 2 caractères
+   ✅ Tesseract binary PSM13: 2 caractères
+   ✅ Tesseract otsu PSM6: 91 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_stuck (conf: 0.90)
+   B2: PaddleOCR_explicit_stuck (conf: 0.90)
+   B6: PaddleOCR_explicit_stuck (conf: 0.90)
+   B7: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Bornes manquantes: ['B3', 'B4', 'B5']
+   ✅ B3 inféré: X=428744.35, Y=706243.56
+   ✅ B4 inféré: X=428759.35, Y=706251.56
+   ✅ B5 inféré: X=428774.35, Y=706259.56
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 7
+      B1: X=428733.57, Y=706258.12 (conf: 0.90, explicit_stuck)
+      B2: X=428746.40, Y=706257.84 (conf: 0.90, explicit_stuck)
+      B3: X=428744.35, Y=706243.56 (conf: 0.30, geometric)
+      B4: X=428759.35, Y=706251.56 (conf: 0.30, geometric)
+      B5: X=428774.35, Y=706259.56 (conf: 0.30, geometric)
+      B6: X=428733.61, Y=706209.55 (conf: 0.90, explicit_stuck)
+      B7: X=428733.80, Y=706232.74 (conf: 0.90, explicit_stuck)
+🎉 ✅ 7 coords (87.5%) [+3]
+
+[ 82/85] 🔍 leve94.png... [2025/09/26 00:03:32] ppocr DEBUG: dt_boxes num : 37, elapse : 0.5523886680603027
+[2025/09/26 00:03:32] ppocr DEBUG: cls num  : 37, elapse : 0.15067028999328613
+[2025/09/26 00:03:36] ppocr DEBUG: rec_res num  : 37, elapse : 4.534576892852783
+Texte extrait: T1TRE N-- C00RD0NNEE5 N0RD x Y 439084.78704533.82 5URFACE:03 94ca 82 439085.22704508.72 B3 439069.19704533.78 439069.47704508.61 B4 704540.00 704540.00 5Puit Terrasse B3 15.75 PLAN DE 51TUAT10N ECHELL...
+Trouvé: B3 X=439069.19 Y=704533.78
+🚀 EXTRACTION FINALE ULTIME pour leve94.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:03:37] ppocr DEBUG: dt_boxes num : 37, elapse : 0.752037525177002
+[2025/09/26 00:03:37] ppocr DEBUG: cls num  : 37, elapse : 0.07742595672607422
+[2025/09/26 00:03:40] ppocr DEBUG: rec_res num  : 37, elapse : 2.7767317295074463
+   ✅ PaddleOCR: 314 caractères
+   ✅ Tesseract original PSM6: 58 caractères
+   ✅ Tesseract original PSM8: 3 caractères
+   ✅ Tesseract original PSM13: 3 caractères
+   ✅ Tesseract binary PSM6: 768 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 57 caractères
+   ✅ Tesseract otsu PSM8: 3 caractères
+   ✅ Tesseract otsu PSM13: 3 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 1
+   B3: PaddleOCR_explicit_stuck (conf: 0.90)
+   Coordonnées déduplicées: 1
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Pas assez de coordonnées pour l'inférence
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 1
+      B3: X=439069.19, Y=704533.78 (conf: 0.90, explicit_stuck)
+➡️ ⚠️ 1 coords (12.5%) [+0]
+
+[ 83/85] 🔍 leve95.png... [2025/09/26 00:03:45] ppocr DEBUG: dt_boxes num : 63, elapse : 0.49283528327941895
+[2025/09/26 00:03:45] ppocr DEBUG: cls num  : 63, elapse : 0.14148211479187012
+[2025/09/26 00:03:47] ppocr DEBUG: rec_res num  : 63, elapse : 2.0763728618621826
+Texte extrait: T1TREN C00RD0NNEE5 N0RD B8rnes X Y B1 439323.45 703616.70 B2 439280.79 703603.26 5UPERF1C1E: 06a 60ca B3 439271.53 703614.73 B4 439319.32 703630.14 703650.00 + Vers P0rt0 N0v0 703650.00 AXE RN n1 de 4...
+Trouvé: B1 X=439323.45 Y=703616.7
+Trouvé: B2 X=439280.79 Y=703603.26
+Trouvé: B3 X=439271.53 Y=703614.73
+Trouvé: B4 X=439319.32 Y=703630.14
+🚀 EXTRACTION FINALE ULTIME pour leve95.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:03:50] ppocr DEBUG: dt_boxes num : 63, elapse : 0.21503853797912598
+[2025/09/26 00:03:50] ppocr DEBUG: cls num  : 63, elapse : 0.09870457649230957
+[2025/09/26 00:03:52] ppocr DEBUG: rec_res num  : 63, elapse : 2.060495138168335
+   ✅ PaddleOCR: 443 caractères
+   ✅ Tesseract original PSM6: 601 caractères
+   ✅ Tesseract original PSM8: 2 caractères
+   ✅ Tesseract original PSM13: 2 caractères
+   ✅ Tesseract binary PSM6: 2634 caractères
+   ✅ Tesseract binary PSM8: 3 caractères
+   ✅ Tesseract binary PSM13: 3 caractères
+   ✅ Tesseract otsu PSM6: 592 caractères
+   ✅ Tesseract otsu PSM8: 2 caractères
+   ✅ Tesseract otsu PSM13: 2 caractères
+
+🔍 DÉDUPLICATION INTELLIGENTE:
+   Coordonnées brutes: 4
+   B1: PaddleOCR_explicit_normal (conf: 1.00)
+   B2: PaddleOCR_explicit_normal (conf: 1.00)
+   B3: PaddleOCR_explicit_normal (conf: 1.00)
+   B4: PaddleOCR_explicit_normal (conf: 1.00)
+   Coordonnées déduplicées: 4
+
+📐 INFÉRENCE GÉOMÉTRIQUE:
+   Aucune borne manquante détectée
+
+✅ VALIDATION FINALE ULTIME:
+   📍 Coordonnées finales validées: 4
+      B1: X=439323.45, Y=703616.70 (conf: 1.00, explicit_normal)
+      B2: X=439280.79, Y=703603.26 (conf: 1.00, explicit_normal)
+      B3: X=439271.53, Y=703614.73 (conf: 1.00, explicit_normal)
+      B4: X=439319.32, Y=703630.14 (conf: 1.00, explicit_normal)
+➡️ 👍 4 coords (50.0%) [+0]
+
+[ 84/85] 🔍 leve97.png... [2025/09/26 00:04:23] ppocr DEBUG: dt_boxes num : 71, elapse : 0.42383837699890137
+[2025/09/26 00:04:24] ppocr DEBUG: cls num  : 71, elapse : 0.1945328712463379
+[2025/09/26 00:04:28] ppocr DEBUG: rec_res num  : 71, elapse : 4.179738283157349
+Texte extrait: T1TRE N C00RD0NNEE5 N0RD X Y B8rnes 5URFACE A: 05a 00ca B1 712927.66 418442.27 5URFACE B:05a 01ca B2 418460.98 712914.61 B3 418456.86 712909.38 10a 01ca T0TALE 712896.99 B4 418444.22 418430.47 B5 7128...
+Trouvé: B2 X=418460.98 Y=712914.61
+Trouvé: B3 X=418456.86 Y=712909.38
+Trouvé: B6 X=418409.85 Y=712911.96
+Trouvé: B7 X=418421.46 Y=712906.76
+Trouvé: B8 X=418429.37 Y=712930.0
+🚀 EXTRACTION FINALE ULTIME pour leve97.png
+======================================================================
+
+📝 EXTRACTION TEXTE EXHAUSTIVE:
+[2025/09/26 00:09:26] ppocr DEBUG: dt_boxes num : 71, elapse : 0.7201874256134033
+[2025/09/26 00:09:26] ppocr DEBUG: cls num  : 71, elapse : 0.1968536376953125
+[2025/09/26 00:09:34] ppocr DEBUG: rec_res num  : 71, elapse : 8.345995426177979
