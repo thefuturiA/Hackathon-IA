@@ -18,8 +18,7 @@ function App() {
             <Route path="/map" element={<Map />} />
             <Route path="/upload" element={<Upload />} />
             <Route path="/parcel/:id" element={<ParcelDetail />} />
-            {/* La route /faq peut renvoyer vers la carte ou une page d'information */}
-            <Route path="/faq" element={<Map />} /> 
+            {/* La route /faq peut renvoyer vers la carte ou une page d'information */} 
           </Routes>
         </main>
         <Footer />

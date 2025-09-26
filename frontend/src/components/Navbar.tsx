@@ -18,9 +18,7 @@ const Navbar: React.FC = () => {
         </NavLink>
 
         <div className="hidden md:flex items-center space-x-6">
-          <NavLink to="/faq" className={({ isActive }) => `text-white hover:text-accent transition-colors duration-200 ${isActive ? 'font-bold text-accent' : ''}`}>
-            FAQ
-          </NavLink>
+
         </div>
 
         <div className="md:hidden flex items-center">
