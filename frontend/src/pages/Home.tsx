@@ -102,7 +102,7 @@ const Home: React.FC = () => {
                   <span className="font-bold text-white text-lg">Adam IA</span>
                   <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse shadow-lg"></div>
                 </div>
-                <button 
+                <button
                   onClick={() => setShowAdamChat(false)}
                   className="text-white hover:bg-white/20 rounded-full p-2 transition-colors"
                 >
@@ -140,8 +140,8 @@ const Home: React.FC = () => {
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-4 border-t-2 border-yellow-200">
                 <div className="flex space-x-2">
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder="Tapez votre question..."
                     className="flex-1 px-4 py-2 border-2 border-gray-300 rounded-lg text-sm focus:outline-none focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200"
                   />
@@ -168,13 +168,13 @@ const Home: React.FC = () => {
             <div className="absolute inset-0 -m-2">
               <div className="w-24 h-24 border-2 border-yellow-300/50 rounded-full animate-ping animation-delay-150"></div>
             </div>
-            
+
             {/* Corps principal plus grand */}
             <div className="relative w-20 h-20 bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-600 rounded-full flex items-center justify-center shadow-2xl transform transition-all duration-300 hover:scale-125 hover:shadow-3xl animate-bounce hover:animate-pulse">
               {/* Effet de brillance renforcé */}
               <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent rounded-full"></div>
               <div className="absolute inset-0 bg-gradient-to-bl from-transparent via-yellow-200/30 to-transparent rounded-full"></div>
-              
+
               {/* Visage d'Adam plus grand */}
               <div className="relative z-10">
                 {/* Yeux plus grands */}
@@ -186,10 +186,10 @@ const Home: React.FC = () => {
                     <div className="w-1 h-1 bg-blue-500 rounded-full ml-1 mt-1"></div>
                   </div>
                 </div>
-                
+
                 {/* Bouche plus visible */}
                 <div className={`w-4 h-2 bg-white rounded-full shadow-sm transition-all duration-300 ${isAdamSpeaking ? 'animate-ping scale-125' : ''}`}></div>
-                
+
                 {/* Particules plus nombreuses et visibles */}
                 <div className="absolute -top-3 -right-3 w-2 h-2 bg-yellow-200 rounded-full animate-ping animation-delay-300"></div>
                 <div className="absolute -bottom-2 -left-3 w-2 h-2 bg-orange-300 rounded-full animate-pulse animation-delay-500"></div>
@@ -219,23 +219,22 @@ const Home: React.FC = () => {
         {/* Bouton audio mute/unmute - REDESIGNÉ */}
         <button
           onClick={toggleMute}
-          className={`relative w-16 h-16 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 transform ${
-            isMuted 
-              ? 'bg-gradient-to-r from-red-500 via-red-600 to-red-700 hover:from-red-600 hover:to-red-800' 
+          className={`relative w-16 h-16 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 transform ${isMuted
+              ? 'bg-gradient-to-r from-red-500 via-red-600 to-red-700 hover:from-red-600 hover:to-red-800'
               : 'bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:to-green-800'
-          }`}
+            }`}
           aria-label={isMuted ? "Activer le son" : "Couper le son"}
         >
           {/* Effet de brillance */}
           <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/30 to-transparent rounded-full"></div>
-          
+
           {/* Icône son */}
           <div className="relative z-10 flex items-center justify-center h-full">
             {isMuted ? (
               // Icône son coupé - PLUS CLAIRE
               <div className="relative">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+                  <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z" />
                 </svg>
                 {/* Ligne de coupure plus visible */}
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -246,7 +245,7 @@ const Home: React.FC = () => {
               // Icône son activé - PLUS CLAIRE
               <div className="relative">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                  <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z" />
                 </svg>
                 {/* Ondes sonores animées */}
                 <div className="absolute -right-1 top-1/2 transform -translate-y-1/2">
@@ -263,23 +262,21 @@ const Home: React.FC = () => {
           </div>
 
           {/* Badge d'état */}
-          <div className={`absolute -top-1 -right-1 w-5 h-5 rounded-full border-2 border-white shadow-lg flex items-center justify-center text-xs font-bold ${
-            isMuted ? 'bg-red-500 text-white' : 'bg-green-400 text-green-900'
-          }`}>
+          <div className={`absolute -top-1 -right-1 w-5 h-5 rounded-full border-2 border-white shadow-lg flex items-center justify-center text-xs font-bold ${isMuted ? 'bg-red-500 text-white' : 'bg-green-400 text-green-900'
+            }`}>
             {isMuted ? '✕' : '♪'}
           </div>
 
           {/* Effet de halo */}
-          <div className={`absolute inset-0 -m-2 rounded-full blur-sm animate-pulse ${
-            isMuted 
-              ? 'bg-red-500/30' 
+          <div className={`absolute inset-0 -m-2 rounded-full blur-sm animate-pulse ${isMuted
+              ? 'bg-red-500/30'
               : 'bg-green-500/30'
-          }`}></div>
+            }`}></div>
         </button>
       </div>
 
       {/* Styles CSS additionnels pour Adam */}
-      <style jsx>{`
+      <style>{`
         @keyframes float {
           0%, 100% { transform: translateY(0px); }
           50% { transform: translateY(-15px); }
