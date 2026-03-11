@@ -1,16 +1,16 @@
-# 🌍 Foncier - Hackathon IA
+# Foncier - Hackathon IA
 
 Foncier est une application web innovante conçue pour faciliter la gestion, la vérification et la visualisation des données foncières et topographiques. Développée dans le cadre d'un Hackathon IA, la plateforme intègre un assistant intelligent (Adam) et des outils cartographiques pour simplifier l'accès à l'information parcellaire.
 
-## ✨ Fonctionnalités Principales
+## Fonctionnalités Principales
 
-*   **🗺️ Carte Interactive** : Visualisez les parcelles et les données foncières grâce à une intégration fluide avec `react-leaflet`.
-*   **📂 Dépôt de Plans Topographiques** : Interface intuitive de glisser-déposer pour soumettre des levés topographiques dans divers formats (PDF, DWG, DXF, JPG, PNG).
-*   **🤖 Assistant IA "Adam"** : Un assistant virtuel intégré pour guider les utilisateurs, répondre aux questions sur les données foncières et aider à la navigation.
-*   **📄 Détails des Parcelles** : Accédez aux informations détaillées de chaque parcelle enregistrée.
-*   **📱 Design Réactif** : Interface utilisateur moderne et accessible, développée avec Tailwind CSS pour s'adapter à tous les écrans.
+*   **Carte Interactive** : Visualisez les parcelles et les données foncières grâce à une intégration fluide avec `react-leaflet`.
+*   **Dépôt de Plans Topographiques** : Interface intuitive de glisser-déposer pour soumettre des levés topographiques dans divers formats (PDF, DWG, DXF, JPG, PNG).
+*   **Assistant IA "Adam"** : Un assistant virtuel intégré pour guider les utilisateurs, répondre aux questions sur les données foncières et aider à la navigation.
+*   **Détails des Parcelles** : Accédez aux informations détaillées de chaque parcelle enregistrée.
+*   **Design Réactif** : Interface utilisateur moderne et accessible, développée avec Tailwind CSS pour s'adapter à tous les écrans.
 
-## 🛠️ Stack Technique
+## Stack Technique
 
 Le projet est basé sur des technologies modernes du web :
 
@@ -22,7 +22,7 @@ Le projet est basé sur des technologies modernes du web :
 *   **Style** : Tailwind CSS
 *   **Icônes** : Lucide React
 
-## 🚀 Démarrage Rapide
+## Démarrage Rapide
 
 ### Prérequis
 
@@ -59,7 +59,7 @@ npm run build
 ```
 Les fichiers générés se trouveront dans le dossier `frontend/dist`.
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 Le projet principal est contenu dans le dossier `frontend/` :
 
@@ -80,6 +80,6 @@ Hackathon-IA/
 └── README.md               # Ce fichier
 ```
 
-## 🌐 Déploiement
+## Déploiement
 
 Le projet est configuré pour être déployé facilement sur **Vercel** grâce au fichier `vercel.json` situé à la racine. Lors du déploiement, Vercel utilise le dossier `frontend` comme répertoire de code source et exécute automatiquement les scripts nécessaires.
